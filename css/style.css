@@ -1,4 +1,4 @@
-.container-fluid{
+#maincontainer{
   padding: 0px;
 }
 #greeter{
@@ -6,7 +6,7 @@
   padding: 40px;
   z-index: 10;
 }
-#greeter h1{
+h1{
   font-size: 54pt;
 }
 .light{
@@ -23,6 +23,7 @@
   position: relative;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+  text-align: center;
 }
 .noisy:before {
     content: ' ';
