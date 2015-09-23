@@ -1,41 +1,34 @@
 #maincontainer{
-  padding: 0px;
+    padding: 0px;
 }
 #greeter{
-  margin-top: 0px !important;
-  padding: 40px;
-  z-index: 10;
+    margin-top: 0px !important;
+    padding: 40px;
+    z-index: 10;
+}
+#greeter a{
+    color: #FFCC33;
 }
 h1{
-  font-size: 54pt;
+    font-size: 54pt;
+}
+h2{
+    font-size: 22pt;
 }
 .light{
-  margin-top: -25px;
-  background-color: #FFF;
-  color: #333;
+    margin-top: -25px;
+    background-color: #FFF;
+    color: #333;
 }
 .dark{
-  background-color: #333;
-  color: #FFF;
+    background-color: #333;
+    color: #FFF;
 }
 .noisy{
-  padding: 20px;
-  position: relative;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  text-align: center;
-}
-.noisy:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.2;
-    background-image: url('../img/noise.jpg');
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    padding: 20px;
+    position: relative;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+    background-image: url('../img/noise.png');
 }
