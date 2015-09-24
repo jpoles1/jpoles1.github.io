@@ -17,7 +17,7 @@
 #extracurricular{
     z-index: 8;
 }
-#greeter a{
+#greeter a, .darkwell a{
     color: #ffcc33;
 }
 h1{
@@ -25,7 +25,7 @@ h1{
 }
 .light{
     margin-top: -15px;
-    background-color: #FFF;
+    background-color: #fff;
     color: #333;
     box-shadow: 0px 8px 10px #222;
 }
@@ -37,6 +37,8 @@ h1{
 }
 .well{
     border-radius: 40px;
+    background-color: #e7e7e7;
+    border-color: #d1d1d1;
 }
 .noisy{
     padding: 20px;
@@ -87,7 +89,7 @@ h1{
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
 }
-.darkwell li{
+.darkwell li, .well li{
     font-size: 14pt;
     margin-bottom: 4px;
 }
@@ -105,4 +107,13 @@ hr{
 .vertical-align {
     display: flex;
     align-items: center;
+}
+.horizcells{
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.row ul{
+    font-weight: normal;
+    list-style-position:inside;
 }
