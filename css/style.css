@@ -17,7 +17,19 @@
 #extracurricular{
     z-index: 8;
 }
-#greeter a, .darkwell a{
+#work{
+    z-index: 7;
+}
+#research{
+    z-index: 6;
+}
+#abstracts{
+    z-index: 5;
+}
+#publications{
+    z-index: 4;
+}
+#greeter a, .darkwell a, .well a{
     color: #ffcc33;
 }
 h1{
@@ -113,7 +125,21 @@ hr{
     padding-right: 100px;
 
 }
-.row ul{
+.row{
     font-weight: normal;
     list-style-position:inside;
+}
+#pubcontainer, #abstractcontainer{
+    border-spacing: 30px;
+    border-collapse: separate;
+}
+#pubcontainer td, #abstractcontainer td{
+    border: none;
+    font-weight: normal;
+}
+#abstractcontainer h3{
+    font-size: 24px;
+}
+#abstractcontainer h4{
+    font-size: 20px;
 }
