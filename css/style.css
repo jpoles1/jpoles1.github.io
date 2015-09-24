@@ -59,7 +59,8 @@ h1{
 .navbar-transparent {
     background-color: rgba(51, 51, 51, .85);
 }
-.navbar-brand{
+.navbar-brand a{
+    text-decoration: none;
     color: #ffcc33;
 }
 .navbar-transparent li a{
@@ -82,5 +83,6 @@ h1{
     box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
 }
 .workimg{
+    border: 2px solid black;
     max-width: 120px; max-height: 120px; margin: auto;
 }
