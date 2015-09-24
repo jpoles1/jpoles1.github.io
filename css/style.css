@@ -92,3 +92,7 @@ hr{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
