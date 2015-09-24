@@ -1,7 +1,8 @@
 $(function(){
-    adjheights("#edd .col-md-4");
+    $('body').scrollspy({ target: '#navbar' })
+    //adjheights("#edd .col-md-4");
     window.onresize = function(event){
-        adjheights("#edd .col-md-4");
+        //adjheights("#edd .col-md-4");
     };
 });
 var adjheights = function(elem){

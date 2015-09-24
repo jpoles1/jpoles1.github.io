@@ -68,9 +68,11 @@ h1{
     font-weight: bold;
 }
 .navbar-transparent li:hover a{
-    color: black;
+    color: #333;
     background-color: #ffcc33;
     font-weight: bold;
+    border: none;
+    border-radius: 0px;
 }
 .darkwell {
     min-height: 20px;
@@ -85,4 +87,8 @@ h1{
 .workimg{
     border: 2px solid black;
     max-width: 120px; max-height: 120px; margin: auto;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

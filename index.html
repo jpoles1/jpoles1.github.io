@@ -4,20 +4,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Jordan Poles</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
-<body>
-<div class="navbar navbar-fixed-top navbar-transparent">
+<body style="position: relative;" data-spy="scroll" data-target="#navbar">
+<div class="navbar navbar-fixed-top navbar-transparent" id="navbar">
     <div class="container-fluid">
         <div class="navbar-header"><div class="navbar-brand" ><a href="#greeter">Jordan Poles</a></div></div>
         <nav class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
+            <ul class="nav nav-tabs navbar-nav" role="tablist">
                 <li><a href="#education">Education</a></li>
                 <li><a href="#work">Work Experience</a></li>
             </ul>
@@ -65,21 +66,48 @@
         <h1>Work Experience</h1>
         <br>
         <div class="container-fluid" id="workcontainer">
-            <div class="row darkwell">
-                <div class="col-md-2">
+            <div class="row darkwell row-flex">
+                <div class="col-md-2 workcol">
                     <img class="img-circle img-responsive workimg" src="img/hope.png">
                 </div>
-                <div class="col-md-2">
-                    <h3>HOPE Clinic</h3>
-                    <h4>Summer 2015</h4>
-                    <h4>Houston, Texas</h4>
+                <div class="col-md-2 workcol">
+                    <div class="flex-col">
+                        <h3>HOPE Clinic</h3>
+                        <h4>Summer 2015</h4>
+                        <h4>Houston, Texas</h4>
+                    </div>
                 </div>
-                <div class="col-md-8">
-                    <h4>Medical Data Analysis Intern and Medical Scribe</h4>
-                    <ul style="font-weight: normal; list-style: none">
-                        <li>Will serve as a medical scribe alongside clinicians serving Houston’s  indigent, immigrant, and refugee populations.</li>
-                        <li>Will analyze clinical data to identify trends in disease and treatment</li>
-                        <li>Will provide follow-up communication to patients with certain conditions/needs</li>
+                <div class="col-md-8 workcol">
+                    <div>
+                        <h3>Medical Data Analysis Intern and Medical Scribe</h3>
+                        <hr>
+                        <ul style="font-weight: normal; list-style: none">
+                            <li>Will serve as a medical scribe alongside clinicians serving Houston’s  indigent, immigrant, and refugee populations.</li>
+                            <li>Will analyze clinical data to identify trends in disease and treatment</li>
+                            <li>Will provide follow-up communication to patients with certain conditions/needs</li>
+                            <li>Will provide follow-up communication to patients with certain conditions/needs</li>
+                            <li>Will provide follow-up communication to patients with certain conditions/needs</li>
+                            <li>Will provide follow-up communication to patients with certain conditions/needs</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row darkwell workrow">
+                <div class="col-md-2 workcol">
+                    <img class="img-circle img-responsive workimg" src="img/suebolen.jpg">
+                </div>
+                <div class="col-md-2 workcol">
+                    <h3>Sue Bolen Publicity</h3>
+                    <h4>2012 - 2014</h4>
+                    <h4>Chappaqua, NY</h4>
+                </div>
+                <div class="col-md-8 workcol">
+                    <h3 style="font-size: 20pt;">Webmaster</h3>
+                    <hr>
+                    <ul style="font-weight: normal; list-style: none; font-size: 14pt;">
+                        <li>Responsible for regularly maintaining and updating content.</li>
+                        <li>Redesigned several pages.</li>
                     </ul>
                 </div>
             </div>
