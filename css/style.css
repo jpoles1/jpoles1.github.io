@@ -1,42 +1,86 @@
 #maincontainer{
-  padding: 0px;
+    padding: 0px;
 }
 .text3d{
-  color: rgb(255, 255, 255);
-  font-size: 64px;
-  text-shadow: rgb(204, 204, 204) 0px 1px 0px, rgb(201, 201, 201) 0px 2px 0px, rgb(187, 187, 187) 0px 3px 0px, rgb(185, 185, 185) 0px 4px 0px, rgb(170, 170, 170) 0px 5px 0px, rgba(0, 0, 0, 0.0980392) 0px 6px 1px, rgba(0, 0, 0, 0.0980392) 0px 0px 5px, rgba(0, 0, 0, 0.298039) 0px 1px 3px, rgba(0, 0, 0, 0.14902) 0px 3px 5px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.2) 0px 10px 10px, rgba(0, 0, 0, 0.0980392) 0px 20px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    text-shadow: rgb(204, 204, 204) 0px 1px 0px, rgb(201, 201, 201) 0px 2px 0px, rgb(187, 187, 187) 0px 3px 0px, rgb(185, 185, 185) 0px 4px 0px, rgb(170, 170, 170) 0px 5px 0px, rgba(0, 0, 0, 0.0980392) 0px 6px 1px, rgba(0, 0, 0, 0.0980392) 0px 0px 5px, rgba(0, 0, 0, 0.298039) 0px 1px 3px, rgba(0, 0, 0, 0.14902) 0px 3px 5px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.2) 0px 10px 10px, rgba(0, 0, 0, 0.0980392) 0px 20px 20px;
 }
 #greeter{
-  margin-top: 0px !important;
-  padding: 40px;
-  z-index: 10;
+    margin-top: 0px !important;
+    padding: 40px;
+    z-index: 10;
+}
+#education{
+    z-index: 9;
 }
 #greeter a{
-  color: #ffcc33;
+    color: #ffcc33;
 }
 h1{
-  font-size: 54pt;
+    font-size: 54pt;
 }
 .light{
-  margin-top: -25px;
-  background-color: #FFF;
-  color: #333;
-  box-shadow: 3px 10px 10px #222;
+    margin-top: -15px;
+    background-color: #FFF;
+    color: #333;
+    box-shadow: 0px 8px 10px #222;
 }
 .dark{
-  background-color: #333;
-  color: #FFF;
-  box-shadow: 3px 10px 10px #222;
+    margin-top: -15px;
+    background-color: #333;
+    color: #FFF;
+    box-shadow: 0px 8px 10px #222;
+}
+.well{
+    border-radius: 40px;
 }
 .noisy{
-  padding: 20px;
-  padding-top: 30px;
-  position: relative;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
-  text-align: center;
-  background-image: url(../img/noise.png)
+    padding: 20px;
+    padding-top: 30px;
+    position: relative;
+    /*border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;*/
+    text-align: center;
+    background-image: url(../img/noise.png)
 }
 .circimg{
-  border: 4px solid black;
+    border: 4px solid black;
+}
+.edimg{
+    max-width: 350px; max-height: 350px; margin: auto;
+}
+.eddetails{
+    font-weight: normal;
+    text-align: left;
+    font-size: 16pt;
+    list-style-type: none;
+}
+.navbar-transparent {
+    background-color: rgba(51, 51, 51, .85);
+}
+.navbar-brand{
+    color: #ffcc33;
+}
+.navbar-transparent li a{
+    color: #FFF;
+    font-weight: bold;
+}
+.navbar-transparent li:hover a{
+    color: black;
+    background-color: #ffcc33;
+    font-weight: bold;
+}
+.darkwell {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #333;
+    border: 1px solid #232323;
+    border-radius: 40px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+.workimg{
+    max-width: 120px; max-height: 120px; margin: auto;
 }

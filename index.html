@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Jordan Poles</title>
@@ -11,33 +11,79 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <div class="container-fluid" id="maincontainer" style="position: relative;">
-      <div class="navbar-fixed-top">JP</div>
-      <div id="greeter" class="dark noisy" style="text-align: center;">
+</head>
+<body>
+<div class="navbar navbar-fixed-top navbar-transparent">
+    <div class="container-fluid">
+        <div class="navbar-header"><div class="navbar-brand">Jordan Poles</div></div>
+        <nav class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#education">Education</a></li>
+                <li><a href="#work">Work Experience</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class="container-fluid" id="maincontainer" style="position: relative;">
+    <div id="greeter" class="dark noisy" style="text-align: center;">
         <h1>HELLO<span style="font-size: 25pt; display: block;">my name is:</span></h1><div class="text3d">Jordan Poles</div>
-        <h2>I am a Rice University <a href="https://biosciences.rice.edu/" target="_blank">Biological Sciences</a> Major; <a href="https://statistics.rice.edu/" target="_blank">Statistics</a> and <a href="http://pjhc.rice.edu/" target="_blank">Poverty Justice and Human Capabilities</a> Minor. <br><br> I am an avid programmer and DIYer with a passion for the sciences and a determination to tackle some of the innumerable problems present in modern healthcare.</h2>
-      </div>
-      <div id="education" class="light noisy">
+        <h2>I am a Rice University <a href="https://biosciences.rice.edu/" target="_blank">Biological Sciences</a> Major; <a href="https://statistics.rice.edu/" target="_blank">Statistics</a> and <a href="http://pjhc.rice.edu/" target="_blank">Poverty Justice and Human Capabilities</a> Minor. <br><br> I am an avid tinkerer, programmer and DIYer with a passion for the sciences and a determination to tackle some of the innumerable problems present in modern healthcare.</h2>
+    </div>
+    <div id="education" class="light noisy">
         <br>
         <h1>Education</h1>
+        <br>
         <div class="container-fluid" id="educationcontainer">
-          <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-4">
-              <img class="img-circle circimg" src="img/rice.gif" width="180" height="180">
-              <h2><b>Rice University<b><br>Class of 2017</h2>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-4 well">
+                    <img class="img-circle img-responsive circimg edimg" src="img/rice.png">
+                    <h2><b>Rice University<b><br>Class of 2017</h2>
+                    <ul class="eddetails">
+                        <li><b>Major: </b>Biological Sciences</li>
+                        <li><b>Minor: </b>Poverty, Justice, and Human Capabilities (PJHC)</li>
+                        <li><b>Minor: </b>Statistics</li>
+                    </ul>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4 well">
+                    <img class="img-circle img-responsive circimg edimg" src="img/hghs.png">
+                    <h2><b>Horace Greeley High School<b><br>Class of 2013</h2>
+                    <ul class="eddetails">
+                        <li><b>Focus: </b>Sciences</li>
+                        <li><b>Language Skills: </b> Spanish</li>
+                        <li><b>AP Credits: </b> Chemistry, Mechanics, Electricity & Magnetism, Biology, and European History</li>
+                    </ul>
+                </div>
+                <div class="col-md-1"></div>
+                </row>
             </div>
-            <div class="col-md-2"></div>
-            <div class="col-md-4">
-              <img class="img-circle circimg" src="img/rice.gif" width="180" height="180">
-              <h2><b>Horace Greeley High School<b><br>Class of 2013</h2>
-            </div>
-            <div class="col-md-1"></div>
-          </row>
         </div>
-      </div>
     </div>
-  </body>
+    <div id="work" class="dark noisy" style="text-align: center;">
+        <br>
+        <h1>Work Experience</h1>
+        <br>
+        <div class="container-fluid" id="workcontainer">
+            <div class="row darkwell">
+                <div class="col-md-2">
+                    <img class="img-circle img-responsive circimg workimg" src="img/hope.png">
+                </div>
+                <div class="col-md-2">
+                    <h3>HOPE Clinic</h3>
+                    <h4>Summer 2015</h4>
+                    <h4>Houston, Texas</h4>
+                </div>
+                <div class="col-md-8">
+                    <h4>Medical Data Analysis Intern and Medical Scribe</h4>
+                    <ul style="font-weight: normal; list-style: none">
+                        <li>Will serve as a medical scribe alongside clinicians serving Houston’s  indigent, immigrant, and refugee populations.</li>
+                        <li>Will analyze clinical data to identify trends in disease and treatment</li>
+                        <li>Will provide follow-up communication to patients with certain conditions/needs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
