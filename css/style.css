@@ -68,7 +68,7 @@ h1{
     border: 4px solid black;
 }
 .edimg{
-    max-width: 350px; max-height: 350px; margin: auto;
+    width: 220px; height: 220px; margin: auto;
 }
 .eddetails{
     font-weight: normal;
@@ -132,11 +132,18 @@ hr{
     font-weight: normal;
     list-style-position:inside;
 }
+#educationcontainer{
+    border-spacing: 40px;
+    border-collapse: separate;
+}
+#educationcontainer td{
+    vertical-align: top;
+}
 #pubcontainer, #abstractcontainer, #researchcontainer, #grantcontainer{
     border-spacing: 30px;
     border-collapse: separate;
 }
-#pubcontainer td, #abstractcontainer td, #researchcontainer td, #grantcontainer td{
+#educationcontainer td, #pubcontainer td, #abstractcontainer td, #researchcontainer td, #grantcontainer td{
     border: none;
     font-weight: normal;
 }
