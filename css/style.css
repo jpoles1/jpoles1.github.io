@@ -129,11 +129,11 @@ hr{
     font-weight: normal;
     list-style-position:inside;
 }
-#pubcontainer, #abstractcontainer{
+#pubcontainer, #abstractcontainer, #researchcontainer{
     border-spacing: 30px;
     border-collapse: separate;
 }
-#pubcontainer td, #abstractcontainer td{
+#pubcontainer td, #abstractcontainer td, #researchcontainer td{
     border: none;
     font-weight: normal;
 }
