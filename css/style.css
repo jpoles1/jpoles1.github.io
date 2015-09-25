@@ -29,6 +29,9 @@
 #publications{
     z-index: 4;
 }
+#grants{
+    z-index: 3;
+}
 #greeter a, .darkwell a, .well a{
     color: #ffcc33;
 }
@@ -129,11 +132,11 @@ hr{
     font-weight: normal;
     list-style-position:inside;
 }
-#pubcontainer, #abstractcontainer, #researchcontainer{
+#pubcontainer, #abstractcontainer, #researchcontainer, #grantcontainer{
     border-spacing: 30px;
     border-collapse: separate;
 }
-#pubcontainer td, #abstractcontainer td, #researchcontainer td{
+#pubcontainer td, #abstractcontainer td, #researchcontainer td, #grantcontainer td{
     border: none;
     font-weight: normal;
 }
