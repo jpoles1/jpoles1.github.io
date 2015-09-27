@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <!--[if lt IE 9]>
@@ -63,182 +64,35 @@
             </tr>
         </table>
     </div>
-    <div id="extracurricular" class="dark noisy" style="text-align: center;">
+    <script id="job-template" type="text/x-handlebars-template">
         <br>
-        <h1>Extracurricular Experience</h1>
+        <h1>{{SectionTitle}}</h1>
         <br>
-        <div class="container-fluid horizcells" id="workcontainer">
+        <div class="container-fluid horizcells">
+            {{#each entries}}
             <div class="row darkwell vertical-align">
                 <div class="col-md-2">
-                    <img class="img-circle img-responsive workimg" src="img/bentaub.gif">
+                    <img class="img-circle img-responsive workimg" src="{{Image}}">
                 </div>
                 <div class="col-md-3">
-                    <h3>Ben Taub Hospital/Patient Discharge Initiative (PDI)</h3>
-                    <h4>April 2014 - Present</h4>
-                    <h4>Houston, TX</h4>
+                    <h3>{{{Organization}}}</h3>
+                    <h4>{{Duration}}</h4>
+                    <h4>{{Location}}</h4>
                 </div>
                 <div class="col-md-7">
-                    <h3>Director of Research/Patient Discharge Planner/Shift Leader</h3>
+                    <h3>{{{PositionTitle}}}</h3>
                     <hr>
                     <ul>
-                        <li>Lead a team of two discharge volunteers on shifts, coordinating discharge activities, maintaining records, and discharging patients.</li>
-                        <li>Developed the initiative’s quality improvement program from the ground up.</li>
+                        {{#each Description}}
+                            <li>{{{this}}}</li>
+                        {{/each}}
                     </ul>
                 </div>
             </div>
-            <div class="row darkwell vertical-align">
-                <div class="col-md-2">
-                    <img class="img-circle img-responsive workimg" src="img/wiess.png">
-                </div>
-                <div class="col-md-3">
-                    <h3>Wiess College</h3>
-                    <h4>April 2014 - Present</h4>
-                    <h4>Houston, TX</h4>
-                </div>
-                <div class="col-md-7">
-                    <h3>Wiess Webmaster</h3>
-                    <hr>
-                    <ul>
-                        <li>Completely redesigned the <a href="teamwiess.com">Wiess College Website</a></li>
-                        <li>Developed and maintained the college’s website and online resources.</li>
-                        <li>Built app to handle merchandise sale Venmo transactions.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row darkwell vertical-align">
-                <div class="col-md-2">
-                    <img class="img-circle img-responsive workimg" src="img/wiess.png">
-                </div>
-                <div class="col-md-3">
-                    <h3>Wiess College</h3>
-                    <h4>February 2014 - Present</h4>
-                    <h4>Houston, TX</h4>
-                </div>
-                <div class="col-md-7">
-                    <h3>Wiess Associates Committee Chair</h3>
-                    <hr>
-                    <ul>
-                        <li>Chosen for leadership because of strong involvement with college associates.</li>
-                        <li>Coordinated the activities of a committee of other students responsible for organizing events</li>
-                        <li>Work alongside associates to coordinate college events and activities to help unify the community.</li>
-                        <li>Organized the associate's night banquet dinner.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row darkwell vertical-align">
-                <div class="col-md-2">
-                    <img class="img-circle img-responsive workimg" src="img/wiess.png">
-                </div>
-                <div class="col-md-3">
-                    <h3>Wiess College</h3>
-                    <h4>February 2014 - Present</h4>
-                    <h4>Houston, TX</h4>
-                </div>
-                <div class="col-md-7">
-                    <h3>Wiess Associate Justice<h3>
-                    <hr>
-                    <ul>
-                        <li>Worked alongside a court of seven other justices to adjudicate, resolve inter-student disputes, infractions and other Wiess cases.</li>
-                        <li>Worked with the court to improve the safety of the on-campus drinking culture.</li>
-                        <li>Elected by the Wiess student body.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row darkwell vertical-align">
-                <div class="col-md-2">
-                    <img class="img-circle img-responsive workimg" src="img/asb.jpg">
-                </div>
-                <div class="col-md-3">
-                    <h3>Rice Alternative Spring Break</h3>
-                    <h4>Spring 2014</h4>
-                    <h4>McAllen, TX</h4>
-                </div>
-                <div class="col-md-7">
-                    <h3>Alternative Spring Break Volunteer<h3>
-                        <hr>
-                        <ul>
-                            <li>Volunteered with educators at the IDEA charter school working for an underserved, minority population living in the Rio Grande Valley.</li>
-                            <li>Engaged in extensive service learning regarding the improvement of the American education system.</li>
-                        </ul>
-                </div>
-            </div>
-            <div class="row darkwell vertical-align">
-                <div class="col-md-2">
-                    <img class="img-circle img-responsive workimg" src="img/bentaub.gif">
-                </div>
-                <div class="col-md-3">
-                    <h3>Ben Taub Hospital/Patient Discharge Initiative (PDI)</h3>
-                    <h4>September 2013 - April 2014</h4>
-                    <h4>Houston, TX</h4>
-                </div>
-                <div class="col-md-7">
-                    <h3>Patient Discharge Volunteer</h3>
-                    <hr>
-                    <ul>
-                        <li>Chosen through competitive application process</li>
-                        <li>Discharged patients from the ER, and discussed follow-up appointments, medications and available social services.</li>
-                        <li>Followed up with patients following discharge to answer questions, promote medication adherence, and encourage follow-up appointment attendance.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row darkwell vertical-align">
-                <div class="col-md-2">
-                    <img class="img-circle img-responsive workimg" src="img/cvac.jpg">
-                </div>
-                <div class="col-md-3">
-                    <h3>Chappaqua Volunteer Ambulance Core</h3>
-                    <h4>2011 - Fall 2013</h4>
-                    <h4>Chappaqua, NY</h4>
-                </div>
-                <div class="col-md-7">
-                    <h3>Aider/First Responder</h3>
-                    <hr>
-                    <ul>
-                        <li>CPR & Basic Life Support Certified</li>
-                        <li>Certified First Responder.</li>
-                        <li>NYS EMT Number: 402797</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row darkwell vertical-align">
-                <div class="col-md-2">
-                    <img class="img-circle img-responsive workimg" src="img/urbanimmersion.jpg">
-                </div>
-                <div class="col-md-3">
-                    <h3>Rice University Urban Immersion</h3>
-                    <h4>Summer 2013</h4>
-                    <h4>Houston, TX</h4>
-                </div>
-                <div class="col-md-7">
-                    <h3>Urban Immersion Volunteer</h3>
-                    <hr>
-                    <ul>
-                        <li>Chosen through competitive application process</li>
-                        <li>Worked with volunteer and community service organizations around the Houston area like: The Food Bank, Star Hope Mission, Meals on Wheels, Houston Arboretum, and The Lighthouse among others</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row darkwell vertical-align">
-                <div class="col-md-2">
-                    <img class="img-circle img-responsive workimg" src="img/kapatid.jpg">
-                </div>
-                <div class="col-md-3">
-                    <h3>Martial Arts Educator</h3>
-                    <h4>2009 - 2012</h4>
-                    <h4>Mt. Kisco, NY</h4>
-                </div>
-                <div class="col-md-7">
-                    <h3>Martial Arts Educator</h3>
-                    <hr>
-                    <ul>
-                        <li>Led classes for younger and older students.</li>
-                        <li>Taught martial arts technique and organized workouts.</li>
-                        <li>Member of the Delta Leadership Team</li>
-                    </ul>
-                </div>
-            </div>
+            {{/each}}
         </div>
-    </div>
+    </script>
+    <div id="extracurricular" class="dark noisy" style="text-align: center;"></div>
     <div id="work" class="light noisy" style="text-align: center;">
         <br>
         <h1>Work Experience</h1>
