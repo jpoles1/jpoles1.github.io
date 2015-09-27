@@ -123,10 +123,11 @@ hr{
     display: flex;
     align-items: center;
 }
-.horizcells{
-    padding-left: 100px;
-    padding-right: 100px;
-
+@media (min-width: 1200px) {
+    .horizcells {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
 .row{
     font-weight: normal;
