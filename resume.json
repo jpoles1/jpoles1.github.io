@@ -127,7 +127,7 @@
           "Served as a medical scribe at a clinic which serves Houston's diverse community, as well as those who cannot typically afford healthcare.",
           "Performed analysis on the clinic's EMR data, results to be presented at the <a href='#abstracts' data-highlight='#AAPI'>AAPI Health Summit</a> 2015.",
           "Work was sponsored by the Susan McAshan Summer Service Internship grant.",
-          "<a id='hopeinfo'>Click here</a> to learn more about my work at the clinic!"
+          "<a id='hopeinfo' href='#hopemodal'>Click here</a> to learn more about my work at the clinic!"
         ]
       },
       {
