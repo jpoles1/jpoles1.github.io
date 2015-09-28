@@ -166,7 +166,7 @@
       }
     ]
   },
-  "grants": {
+  "grants":{
     "Section Title": "Grants",
     "Theme": "well",
     "entries": [
@@ -186,5 +186,12 @@
         "Name": "AGA-Eli & Edythe Broad Student Research Fellowship"
       }
     ]
+  },
+  "projects": {
+    "SectionTitle": "Personal Projects",
+    "Theme": "well",
+    "entries": {
+
+    }
   }
 }

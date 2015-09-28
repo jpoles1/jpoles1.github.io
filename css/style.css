@@ -147,6 +147,11 @@ hr{
 .circimg{
     border: 4px solid black;
 }
+.well .projimg{
+    border: 2px solid #000000;
+    border: 1px solid #1a1a1a;
+
+}
 .darkwell .projimg{
     border: 2px solid #FFF;
     border: 1px solid #dadada;
@@ -232,4 +237,11 @@ hr{
 }
 #projectsContainer a{
     color: #333;
+}
+#projecttoggle{
+    cursor: pointer;
+    color: #444;
+}
+#projecttoggle:hover .glyphicon{
+    color: #555;
 }
