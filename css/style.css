@@ -1,7 +1,19 @@
+/* Importing Fonts */
+@font-face {
+    font-family: Fairview;
+    src: url("../fonts/Fairview_Regular.otf") format("opentype");
+}
 #maincontainer{
     padding: 0px;
 }
+.jordanpoles{
+    font-size: 100pt;
+    font-family: Fairview;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
 .text3d{
+    /* Not currently being used */
     color: rgb(255, 255, 255);
     font-size: 64px;
     text-shadow: rgb(204, 204, 204) 0px 1px 0px, rgb(201, 201, 201) 0px 2px 0px, rgb(187, 187, 187) 0px 3px 0px, rgb(185, 185, 185) 0px 4px 0px, rgb(170, 170, 170) 0px 5px 0px, rgba(0, 0, 0, 0.0980392) 0px 6px 1px, rgba(0, 0, 0, 0.0980392) 0px 0px 5px, rgba(0, 0, 0, 0.298039) 0px 1px 3px, rgba(0, 0, 0, 0.14902) 0px 3px 5px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.2) 0px 10px 10px, rgba(0, 0, 0, 0.0980392) 0px 20px 20px;
@@ -35,11 +47,13 @@
 }
 #footer{
     padding: 15px;
-    background-color: #333;
-    color: #FFF;
+    background-color: #000;
+    color: #ffffff;
     z-index: 10;
     font-size: 10pt;
-    font-weight: bold;
+}
+#footer a{
+    color: #ffcc33;
 }
 /* Navigation Bar */
 .navbar-transparent {
