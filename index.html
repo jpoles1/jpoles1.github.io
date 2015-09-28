@@ -11,6 +11,7 @@
     <script type="text/javascript" src="js/leanModal.min.js"></script>
     <script type="text/javascript" src="js/handlebars.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/gridline.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -41,32 +42,28 @@
         <br><br>
         I am an avid tinkerer, <a href="https://github.com/jpoles1" target="_blank">programmer</a> and <a href="https://hackaday.io/jpoles1">DIYer</a> with a passion for the sciences and a determination to tackle some of the innumerable problems present in modern healthcare.</h2>
     </div>
-    <div id="education" class="light noisy">
+    <div id="projects" class="light noisy">
         <br>
-        <h1>Education</h1>
+        <h1>Projects</h1>
         <br>
-        <table id="educationcontainer">
-            <tr>
-                <td class="col-md-6 well">
-                    <img class="img-circle img-responsive circimg edimg" src="img/rice.png">
-                    <h2><b>Rice University<b><br>Class of 2017</h2>
-                    <ul class="eddetails">
-                        <li><b>Major: </b>Biological Sciences</li>
-                        <li><b>Minor: </b>Poverty, Justice, and Human Capabilities (PJHC)</li>
-                        <li><b>Minor: </b>Statistics</li>
-                    </ul>
-                </td>
-                <td class="col-md-6 well">
-                    <img class="img-circle img-responsive circimg edimg" src="img/hghs.png">
-                    <h2><b>Horace Greeley<b><br>Class of 2013</h2>
-                    <ul class="eddetails">
-                        <li><b>Focus: </b>Sciences</li>
-                        <li><b>Language Skills: </b> Spanish</li>
-                        <li><b>AP Credits: </b> Chemistry, Mechanics, Electricity & Magnetism, Biology, and European History</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
+        <div id="projectsContainer" class="container-fluid">
+            <div class="col-md-3 well">
+                <a href="http://github.com/jpoles1">
+                    <img class="img-circle img-responsive projimg" src="img/github.png">
+                    <br>
+                    <hr>
+                    <h2>My GitHub</h2>
+                </a>
+            </div>
+            <div class="col-md-3 well">
+                <a href="http://github.com/jpoles1">
+                    <img class="img-circle img-responsive projimg" src="img/hackaday.png" style="background-color: black">
+                    <br>
+                    <hr>
+                    <h2>My Hack-A-Day Profile</h2>
+                </a>
+            </div>
+        </div>
     </div>
     <script id="job-template" type="text/x-handlebars-template">
         <br>
@@ -74,7 +71,7 @@
         <br>
         <div class="container-fluid horizcells">
             {{#each entries}}
-            <div class="row vertical-align {{../Theme}}">
+            <div data-columns="16" class="row vertical-align {{../Theme}}">
                 <div class="col-md-2">
                     <img class="img-circle img-responsive workimg" src="{{Image}}">
                 </div>
