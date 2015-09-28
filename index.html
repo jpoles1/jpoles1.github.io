@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
@@ -70,7 +71,7 @@
         <br>
         <div class="container-fluid horizcells">
             {{#each entries}}
-            <div class="row darkwell vertical-align">
+            <div class="row vertical-align {{../Theme}}">
                 <div class="col-md-2">
                     <img class="img-circle img-responsive workimg" src="{{Image}}">
                 </div>
@@ -93,90 +94,7 @@
         </div>
     </script>
     <div id="extracurricular" class="dark noisy" style="text-align: center;"></div>
-    <div id="work" class="light noisy" style="text-align: center;">
-        <br>
-        <h1>Work Experience</h1>
-        <br>
-        <div class="container-fluid horizcells" id="workcontainer">
-            <div class="row well vertical-align">
-                <div class="col-md-2">
-                    <img class="img-circle img-responsive workimg" src="img/hope.png">
-                </div>
-                <div class="col-md-3">
-                    <div class="flex-col">
-                        <h3>HOPE Clinic</h3>
-                        <h4>Summer 2015</h4>
-                        <h4>Houston, TX</h4>
-                    </div>
-                </div>
-                <div class="col-md-7">
-                    <div>
-                        <h3>Medical Data Analysis Intern and Medical Scribe</h3>
-                        <hr>
-                        <ul>
-                            <li>Will serve as a medical scribe alongside clinicians serving Houston’s  indigent, immigrant, and refugee populations.</li>
-                            <li>Will analyze clinical data to identify trends in disease and treatment</li>
-                            <li>Will provide follow-up communication to patients with certain conditions/needs</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row well vertical-align">
-                <div class="col-md-2">
-                    <img class="img-circle img-responsive workimg" src="img/freelance.png">
-                </div>
-                <div class="col-md-3">
-                    <h3>Distilled Design and Freelance</h3>
-                    <h4>2009 - Present</h4>
-                    <h4>Chappaqua, NY</h4>
-                </div>
-                <div class="col-md-7">
-                    <h3>Co-Owner/Founder and Lead Web Developer</h3>
-                    <hr>
-                    <ul>
-                        <li>Developed sites for awning vendors, electronic storefronts for fashion boutiques, and showcases for artisanal bakeries.</li>
-                        <li>Work for clients across the Northeast and as far as India.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row well vertical-align">
-                <div class="col-md-2">
-                    <img class="img-circle img-responsive workimg" src="img/suebolen.jpg">
-                </div>
-                <div class="col-md-3">
-                    <h3>Sue Bolen Publicity</h3>
-                    <h4>2012 - 2014</h4>
-                    <h4>Chappaqua, NY</h4>
-                </div>
-                <div class="col-md-7">
-                    <h3>Webmaster</h3>
-                    <hr>
-                    <ul>
-                        <li>Responsible for regularly maintaining and updating content.</li>
-                        <li>Redesigned several pages.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row well vertical-align">
-                <div class="col-md-2">
-                    <img class="img-circle img-responsive workimg" src="img/nyu.jpg">
-                </div>
-                <div class="col-md-3">
-                    <h3>NYU Department of Educational Informatics</h3>
-                    <h4>2009 - 2010</h4>
-                    <h4>New York, NY</h4>
-                </div>
-                <div class="col-md-7">
-                    <h3>Designer, Developer and Editor</h3>
-                    <hr>
-                    <ul>
-                        <li>Developed Virtual Clinic and Learning Modules</li>
-                        <li>Developed medical reading list technology</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div id="work" class="light noisy" style="text-align: center;"></div>
     <div id="research" class="dark noisy" style="text-align: center;">
         <br>
         <h1>Research Experience</h1>
@@ -203,21 +121,26 @@
     </div>
     <div id="abstracts" class="light noisy" style="text-align: center;">
         <br>
-        <h1>Abstracts</h1>
+        <h1>Abstracts & Presentations</h1>
         <br>
         <table id="abstractcontainer">
             <tr>
-                <td class="col-md-4 col-sm-6 well">
+                <td class="col-md-3 col-sm-6 well" id="AAPI">
+                    <h3>The Characteristics of Chronic Viral Disease in a Houston FQHC Asian Patient Population</h3>
+                    <h4>Poster - Nov 2015</h4>
+                    <h4>Asian American Pacific Islander Health Summit</h4>
+                </td>
+                <td class="col-md-3 col-sm-6 well">
                     <h3>Metabolic Alterations To The Mucosal Microbiota Of Inflammatory Bowel Disease Patients Are Associated With CD4+ T Cell Homeostasis</h3>
                     <h4>Poster - 2013</h4>
                     <h4>Advances in IBD</h4>
                 </td>
-                <td class="col-md-4 col-sm-6 well">
+                <td class="col-md-3 col-sm-6 well">
                     <h3>Induction of a Gut-Tropic, Anti-HIV Immune Response via DEC-205 Targeted Intranasal Vaccination</h3>
                     <h4>Oral Presentation - 2013</h4>
                     <h4>Digestive Disease Week</h4>
                 </td>
-                <td class="col-md-4 col-sm-6 well">
+                <td class="col-md-3 col-sm-6 well">
                     <h3>Lung dendritic cells induce migration of protective T cells to the gastrointestinal tract</h3>
                     <h4>Poster - 2013</h4>
                     <h4>Conference on Retroviruses and Opportunistic Infections</h4>
@@ -287,7 +210,7 @@
     </div>
     <div id="grants" class="light noisy" style="text-align: center;">
         <br>
-        <h1>Grants</h1>
+        <h1>Grants - Add Susan McAshan Summer</h1>
         <br>
         <table id="grantcontainer">
             <tr>

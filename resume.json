@@ -1,0 +1,169 @@
+{
+  "extracurricular": {
+    "SectionTitle": "Extracurricular Experience",
+    "Theme": "darkwell",
+    "entries": [
+      {
+        "PositionTitle": "Director of Research/Patient Discharge Planner/Shift Leader",
+        "Organization": "Ben Taub Hospital<br>Patient Discharge Initiative (PDI)",
+        "Duration": "April 2014 - Present",
+        "Location": "Houston, TX",
+        "Image": "img/bentaub.gif",
+        "Description": [
+          "Lead a team of two discharge volunteers on shifts, coordinating discharge activities, maintaining records, and discharging patients.",
+          "Developed the initiative's quality improvement program from the ground up."
+        ]
+      },
+      {
+        "PositionTitle": "Wiess Webmaster",
+        "Organization": "Wiess College",
+        "Duration": "April 2014 - Present",
+        "Location": "Houston, TX",
+        "Image": "img/wiess.png",
+        "Description": [
+          "Completely redesigned the <a href='teamwiess.com'>Wiess College Website</a>.",
+          "Developed and maintained the college's website and online resources.",
+          "Built an application to handle merchandise sale Venmo transactions."
+        ]
+      },
+      {
+        "PositionTitle": "Wiess Associates Committee Chair",
+        "Organization": "Wiess College",
+        "Duration": "February 2014 - Present",
+        "Location": "Houston, TX",
+        "Image": "img/wiess.png",
+        "Description": [
+          "Chosen for leadership because of strong involvement with college associates.",
+          "Coordinated the activities of a committee of other students responsible for organizing events.",
+          "Worked alongside associates to coordinate college events and activities to help unify the community.",
+          "Organized the Associates Night banquet dinner"
+        ]
+      },
+      {
+        "PositionTitle": "Wiess Associate Justice",
+        "Organization": "Wiess College",
+        "Duration": "February 2014 - Present",
+        "Location": "Houston, TX",
+        "Image": "img/wiess.png",
+        "Description": [
+          "Worked alongside a court of seven other justices to adjudicate, resolve inter-student disputes, infractions and other Wiess cases.",
+          "Worked with the court to improve the safety of the on-campus drinking culture.",
+          "Elected by the Wiess student body."
+        ]
+      },
+      {
+        "PositionTitle": "Alternative Spring Break Volunteer",
+        "Organization": "Rice Alternative Spring Break",
+        "Duration": "Spring 2014",
+        "Location": "McAllen, TX",
+        "Image": "img/asb.jpg",
+        "Description": [
+          "Volunteered with educators at the IDEA charter school working for an underserved, minority population living in the Rio Grande Valley.",
+          "Engaged in extensive service learning regarding the improvement of the American education system."
+        ]
+      },
+      {
+        "PositionTitle": "Patient Discharge Volunteer",
+        "Organization": "Ben Taub Hospital<br>Patient Discharge Initiative (PDI)",
+        "Duration": "September 2013 - April 2014",
+        "Location": "Houston, TX",
+        "Image": "img/bentaub.gif",
+        "Description": [
+          "Chosen through competitive application process.",
+          "Discharged patients from the ER, and discussed follow-up appointments, medications and available social services.",
+          "Followed up with patients following discharge to answer questions, promote medication adherence, and encourage follow-up appointment attendance"
+        ]
+      },
+      {
+        "PositionTitle": "Aider & First Responder",
+        "Organization": "Chappaqua Volunteer Ambulance Core",
+        "Duration": "September 2013 - April 2014",
+        "Location": "Chappaqua, TX",
+        "Image": "img/cvac.jpg",
+        "Description": [
+          "CPR & Basic Life Support Certified.",
+          "Certified First Responder.",
+          "NYS EMT Number: 402797"
+        ]
+      },
+      {
+        "PositionTitle": "Urban Immersion Volunteer",
+        "Organization": "Rice University Urban Immersion",
+        "Duration": "Summer 2013",
+        "Location": "Houston, TX",
+        "Image": "img/asb.jpg",
+        "Description": [
+          "Chosen through competitive application process.",
+          "Worked with a number of different service organizations around Houston",
+          "Engaged in service learning about socioeconomic disparities in Houston."
+        ]
+      },
+      {
+        "PositionTitle": "Filipino Martial Arts Educator",
+        "Organization": "Kapatid Martial Arts",
+        "Duration": "2009 - 2012",
+        "Location": "Mt. Kisco, NY",
+        "Image": "img/kapatid.jpg",
+        "Description": [
+          "Led classes for younger and older students.",
+          "Taught martial arts technique and organized workouts.",
+          "Member of the Delta Leadership Team",
+          "Earned Black Belt in May, 2010"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "SectionTitle": "Work Experience",
+    "Theme": "well",
+    "entries": [
+      {
+        "PositionTitle": "Medical Data Analysis Intern and Medical Scribe",
+        "Organization": "HOPE Clinic",
+        "Duration": "June - August 2015",
+        "Location": "Houston, TX",
+        "Image": "img/hope.png",
+        "Description": [
+          "Served as a medical scribe at a clinic which serves Houston's diverse community, as well as those who cannot typically afford healthcare.",
+          "Performed analysis on the clinic's EMR data, results to be presented at the <a href='#abstracts' data-highlight='#AAPI'>AAPI Health Summit</a> 2015.",
+          "Work was sponsored by the Susan McAshan Summer Service Internship grant.",
+          "<a id='hopeinfo'>Click here</a> to learn more about my work at the clinic!"
+        ]
+      },
+      {
+        "PositionTitle": "Freelance Web Designer & Developer",
+        "Organization": "Distilled Design",
+        "Duration": "2009 - Present",
+        "Location": "Chappaqua, NY",
+        "Image": "img/freelance.png",
+        "Description": [
+          "Developed for clients in Texas, across the Northeast, and as far as India.",
+          "In High School, co-founded a successful web development company (Distilled Design)",
+          "Clients include an online ticket vendor, awning distributor, NY fashion boutique, and artisanal bakery"
+        ]
+      },
+      {
+        "PositionTitle": "Webmaster",
+        "Organization": "Sue Bolen Publicity",
+        "Duration": "2012 - 2014",
+        "Location": "Chappaqua, NY",
+        "Image": "img/suebolen.jpg",
+        "Description": [
+          "Responsible for regularly maintaining and updating content.",
+          "Redesigned several pages."
+        ]
+      },
+      {
+        "PositionTitle": "Designer, Developer and Editor",
+        "Organization": "NYU Department of Educational Informatics",
+        "Duration": "2009 - 2010",
+        "Location": "Chappaqua, NY",
+        "Image": "img/nyu.jpg",
+        "Description": [
+          "Developed Virtual Clinic and Learning Modules.",
+          "Developed medical reading list technology."
+        ]
+      }
+    ]
+  }
+}
