@@ -165,5 +165,26 @@
         ]
       }
     ]
+  },
+  "grants": {
+    "Section Title": "Grants",
+    "Theme": "well",
+    "entries": [
+      {
+        "Title": "HOPE Clinic: Medical Scribing & Tackling The Electronic Medical Record",
+        "Duration": "June 2015 - August 2015",
+        "Name": "Susan McAshan Summer Service Internship"
+      },
+      {
+        "Title": "Metabolic Alterations to the Mucosal Microbiota in Inflammatory Bowel Disease",
+        "Duration": "June 2013 - September 2013",
+        "Name": "AGA-Eli & Edythe Broad Student Research Fellowship"
+      },
+      {
+        "Title": "The Induction of a Cytotoxic and Neutralizing GI Mucosal Immune Response Against HIV Through Targeted Intranasal Vaccination",
+        "Duration": "June 2012 - September 2012",
+        "Name": "AGA-Eli & Edythe Broad Student Research Fellowship"
+      }
+    ]
   }
 }
