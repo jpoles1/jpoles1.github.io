@@ -192,9 +192,24 @@
   },
   "projects": {
     "SectionTitle": "Personal Projects",
+    "SectionID": "projects",
     "Theme": "well",
-    "entries": {
-
-    }
+    "entries": [
+      {
+        "ProjectName": "Rice Ridiculously Automated Dorm (RRAD!)",
+        "ProjectURL": "https://hackaday.io/project/4898-rice-ridiculously-automated-dorm-rrad",
+        "Image": "img/rrad.png"
+      },
+      {
+        "ProjectName": "My GitHub",
+        "ProjectURL": "http://github.com/jpoles1",
+        "Image": "img/github.png"
+      },
+      {
+        "ProjectName": "My Hack-A-Day Profile",
+        "ProjectURL": "http://hackaday.io/jpoles1",
+        "Image": "img/hackaday.png"
+      }
+    ]
   }
 }

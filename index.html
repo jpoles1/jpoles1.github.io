@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <title>Jordan Poles</title>
+    <!--<link rel="stylesheet" href="css/flexboxgrid.min.css">-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
@@ -45,37 +46,23 @@
         <br><br>
         I am an avid tinkerer, <a href="https://github.com/jpoles1" target="_blank">programmer</a> and <a href="https://hackaday.io/jpoles1" target="_blank">DIYer</a> with a passion for the sciences and a determination to tackle some of the innumerable problems present in modern healthcare.</h2>
     </div>
-    <div id="projects" class="light noisy">
+    <script id="project-template" type="text/x-handlebars-template">
         <br>
-        <h1>Projects</h1>
+        <h1>{{SectionTitle}}</h1>
         <br>
-        <div id="projectsContainer" class="container-fluid">
-            <div class="col-md-3 col-xs-6 well">
-                <a href="https://hackaday.io/project/4898-rice-ridiculously-automated-dorm-rrad" target="_blank">
-                    <img class="img-circle img-responsive projimg" src="img/rrad.png" style="background-color: black">
-                    <br>
-                    <hr>
-                    <h2>Rice Ridiculously Automated Dorm (RRAD!)</h2>
-                </a>
-            </div>
-            <div class="col-md-3 col-xs-6 well">
-                <a href="http://github.com/jpoles1" target="_blank">
-                    <img class="img-circle img-responsive projimg" src="img/github.png">
-                    <br>
-                    <hr>
-                    <h2>My GitHub</h2>
-                </a>
-            </div>
-            <div class="col-md-3 col-xs-6 well">
-                <a href="http://hackaday.io/jpoles1" target="_blank">
-                    <img class="img-circle img-responsive projimg" src="img/hackaday.png" style="background-color: black">
-                    <br>
-                    <hr>
-                    <h2>My Hack-A-Day Profile</h2>
-                </a>
+        <div id="{{sectionID}}Container" style="container-fluid">
+            <div class="row">
+                {{#each entries}}
+                <div class="well" style="width: 20vw; height: 20vw; background-image: url({{Image}}); background-size: contain; margin: auto;">
+                    <a href="https://hackaday.io/project/4898-rice-ridiculously-automated-dorm-rrad" target="_blank">
+                        {{ProjectName}}
+                    </a>
+                </div>
+                {{/each}}
             </div>
         </div>
-    </div>
+    </script>
+    <div id="projects" class="light noisy"></div>
     <script id="job-template" type="text/x-handlebars-template">
         <br>
         <h1>{{SectionTitle}}</h1>
@@ -83,7 +70,7 @@
         <div class="container-fluid horizcells">
             {{#each entries}}
             <div class="row vertical-align {{../Theme}}">
-                <div class="col-lg-4 col-xs-12">
+                <div class="col-lg-4 col-xs-8">
                     <img class="img-circle img-responsive workimg" src="{{Image}}">
                 </div>
                 <div class="col-lg-3 col-xs-4">

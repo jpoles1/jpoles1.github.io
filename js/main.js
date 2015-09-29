@@ -8,10 +8,13 @@ var toggleProjects = function(){
 
 };
 var init = function(obj){
+    $(".tooltippable").tooltip();
     $("#hopeinfo").leanModal({overlay : 0.95, closeButton: ".modal_close"});
     var jobtemplate = Handlebars.compile($("#job-template").html());
     $("#extracurricular").html(jobtemplate(obj.extracurricular));
     $("#work").html(jobtemplate(obj.work));
+    var projecttemplate = Handlebars.compile($("#project-template").html());
+    $("#projects").html(projecttemplate(obj.projects));
     //Scroll Spy: Changes navbar with scrolling
     $('body').scrollspy({ target: '#navbar' });
     //SMOOTH SCROLLING
