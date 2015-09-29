@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name=viewport content="width=device-width, initial-scale=1">
     <title>Jordan Poles</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -83,15 +83,15 @@
         <div class="container-fluid horizcells">
             {{#each entries}}
             <div class="row vertical-align {{../Theme}}">
-                <div class="col-lg-2 col-xs-12">
+                <div class="col-lg-4 col-xs-12">
                     <img class="img-circle img-responsive workimg" src="{{Image}}">
                 </div>
-                <div class="col-lg-3 col-xs-12">
+                <div class="col-lg-3 col-xs-4">
                     <h3>{{{Organization}}}</h3>
                     <h4>{{Duration}}</h4>
                     <h4>{{Location}}</h4>
                 </div>
-                <div class="col-lg-7 col-xs-12">
+                <div class="col-lg-7 col-xs-8">
                     <h3>{{{PositionTitle}}}</h3>
                     <hr>
                     <ul>
