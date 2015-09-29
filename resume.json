@@ -1,6 +1,7 @@
 {
   "extracurricular": {
     "SectionTitle": "Extracurricular Experience",
+    "SectionID": "extracurricular",
     "Theme": "darkwell",
     "entries": [
       {
@@ -115,6 +116,7 @@
   },
   "work": {
     "SectionTitle": "Work Experience",
+    "SectionID": "work",
     "Theme": "well",
     "entries": [
       {
@@ -168,6 +170,7 @@
   },
   "grants":{
     "Section Title": "Grants",
+    "SectionID": "grants",
     "Theme": "well",
     "entries": [
       {

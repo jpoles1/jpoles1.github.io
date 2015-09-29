@@ -8,15 +8,6 @@ var toggleProjects = function(){
 
 };
 var init = function(obj){
-    $('#projectToggleArrow').tooltip();
-    if(window.location.hash=="#projects"){
-        $("#projectsContainer").show();
-        $("#projectToggleArrow").hide();
-    }
-    $("#projecttoggle").click(function(){
-        $("#projectsContainer").slideToggle();
-        $("#projectToggleArrow").toggle();
-    });
     $("#hopeinfo").leanModal({overlay : 0.95, closeButton: ".modal_close"});
     var jobtemplate = Handlebars.compile($("#job-template").html());
     $("#extracurricular").html(jobtemplate(obj.extracurricular));
@@ -36,11 +27,19 @@ var init = function(obj){
             if(highlight){
                 $(highlight).animateHighlight();
             }
-            if(target=="#projects"){
-                $("#projectsContainer").slideDown();
-                $("#projectToggleArrow").hide();
-            }
+            $target.children(".sectionToggle").click();
         });
+    });
+    //Setup folding cards
+    $(".sectionToggleIndicator").tooltip();
+    $(".sectionToggle").tooltip();
+    $(window.location.hash+"Container").show();
+    $(window.location.hash).children(".sectionToggleIndicator").hide();
+    $(".sectionToggle").click(function(){
+        var targetdiv = $(this).attr("data-reveal");
+        console.log(targetdiv);
+        $(targetdiv).slideToggle();
+        $(targetdiv).children(".sectionToggleIndicator").toggle();
     });
 };
 $(function(){
