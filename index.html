@@ -78,16 +78,16 @@
         <br>
         <div class="container-fluid horizcells">
             {{#each entries}}
-            <div data-columns="16" class="row vertical-align {{../Theme}}">
-                <div class="col-md-2">
+            <div class="row vertical-align {{../Theme}}">
+                <div class="col-md-2 col-xs-4">
                     <img class="img-circle img-responsive workimg" src="{{Image}}">
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-xs-8">
                     <h3>{{{Organization}}}</h3>
                     <h4>{{Duration}}</h4>
                     <h4>{{Location}}</h4>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7 col-xs-12">
                     <h3>{{{PositionTitle}}}</h3>
                     <hr>
                     <ul>
