@@ -6,13 +6,21 @@
     <meta name=viewport content="width=device-width, initial-scale=1">
     <title>Jordan Poles</title>
     <!--<link rel="stylesheet" href="css/flexboxgrid.min.css">-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!--JQuery-->
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <!--Bootstrap-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Misc Libs-->
     <script type="text/javascript" src="js/leanModal.min.js"></script>
     <script type="text/javascript" src="js/handlebars.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick-theme.css"/>
+
+    <!--My Scripts-->
+    <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/main.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -50,16 +58,18 @@
         <br>
         <h1>{{SectionTitle}}</h1>
         <br>
-        <div id="{{sectionID}}Container" style="container-fluid">
-            <div class="row">
-                {{#each entries}}
-                <div class="well" style="width: 20vw; height: 20vw; background-image: url({{Image}}); background-size: contain; margin: auto;">
-                    <a href="https://hackaday.io/project/4898-rice-ridiculously-automated-dorm-rrad" target="_blank">
-                        {{ProjectName}}
-                    </a>
-                </div>
-                {{/each}}
+        <div id="{{SectionID}}Container" style="width: 90%; margin: auto; padding: 25px;">
+            {{#each entries}}
+            <div>
+                <a href="{{ProjectURL}}">
+                    <div class="well projimg" style="text-align: center; position: relative;padding: 0px; overflow: hidden; width: 250px; height: 250px; margin: auto; background-image: url({{Image}}); background-size: contain;">
+                        <div class="projoverlay" style="padding: 15px; padding-bottom: 20px; position: absolute; bottom: 0; width: 100%; background-color: rgba(0,0,0,.8); color: #FFF; display: none;">
+                            {{ProjectName}}
+                        </div>
+                    </div>
+                </a>
             </div>
+            {{/each}}
         </div>
     </script>
     <div id="projects" class="light noisy"></div>
@@ -78,7 +88,7 @@
                     <h4>{{Duration}}</h4>
                     <h4>{{Location}}</h4>
                 </div>
-                <div class="col-lg-7 col-xs-8">
+                <div class="col-lg-7 col-xs-12">
                     <h3>{{{PositionTitle}}}</h3>
                     <hr>
                     <ul>

@@ -201,6 +201,16 @@
         "Image": "img/rrad.png"
       },
       {
+        "ProjectName": "Project Haskell Euler",
+        "ProjectURL": "https://github.com/jpoles1/HaskellEuler",
+        "Image": "img/euler.jpg"
+      },
+      {
+        "ProjectName": "The Responsive Planter",
+        "ProjectURL": "https://hackaday.io/project/5652-responsive-planter",
+        "Image": "img/planter.jpg"
+      },
+      {
         "ProjectName": "My GitHub",
         "ProjectURL": "http://github.com/jpoles1",
         "Image": "img/github.png"

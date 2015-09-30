@@ -276,3 +276,11 @@ hr{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.slick-dots{
+    left: 0px;
+}
