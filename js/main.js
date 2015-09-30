@@ -46,7 +46,7 @@ var init = function(obj){
         variableWidth: false,
         mobileFirst: true,
         autoplay: true,
-        autoplaySpeed: 1500,
+        autoplaySpeed: 2000,
         prevArrow: "<a type='button' class='glyphicon glyphicon-chevron-left' style='position: absolute; height: 100%; left:-25px; font-size: 35px; line-height: 300px;;'></a>",
         nextArrow: "<a type='button' class='glyphicon glyphicon-chevron-right' style='position: absolute; height: 100%; right:-25px; font-size: 35px; line-height: 300px;'></a>",
         responsive: [
