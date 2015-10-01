@@ -20,8 +20,6 @@ var init = function(obj){
     //Import Publications
     var publicationstemplate = Handlebars.compile($("#publications-template").html());
     $("#publications").html(publicationstemplate(obj.publications));
-    //Scroll Spy: Changes navbar with scrolling
-    $('body').scrollspy({ target: '#navbar' });
     //SMOOTH SCROLLING
     $('a[href^="#"]').click(function (e) {
         e.preventDefault();
@@ -119,6 +117,9 @@ var init = function(obj){
             }
         ]
     });
+    //Scroll Spy: Changes navbar with scrolling
+    $('body').scrollspy({ target: '#navbar' });
+    //Tooltips
     $(".tooltippable").tooltip();
 };
 $(function(){
