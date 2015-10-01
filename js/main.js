@@ -4,12 +4,7 @@ $.fn.animateHighlight = function() {
     var current = this.css( 'background-color' );
     this.animate({backgroundColor: "#FFFFCC"}).animate({backgroundColor: current});
 };
-var toggleProjects = function(){
-
-};
-var init = function(obj){
-    //Setup Modal
-    $("#hopeinfo").leanModal({overlay : 0.95, closeButton: ".modal_close"});
+var importResume = function(obj, cb){
     //Import Projects
     var projecttemplate = Handlebars.compile($("#project-template").html());
     $("#projects").html(projecttemplate(obj.projects));
@@ -20,6 +15,11 @@ var init = function(obj){
     //Import Publications
     var publicationstemplate = Handlebars.compile($("#publications-template").html());
     $("#publications").html(publicationstemplate(obj.publications));
+    cb(obj);
+};
+var initPlugins = function(obj){
+    //Setup Modal
+    $("#hopeinfo").leanModal({overlay : 0.95, closeButton: ".modal_close"});
     //SMOOTH SCROLLING
     $('a[href^="#"]').click(function (e) {
         e.preventDefault();
@@ -50,7 +50,7 @@ var init = function(obj){
         variableWidth: false,
         mobileFirst: true,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 5000,
         prevArrow: "<a type='button' class='glyphicon glyphicon-chevron-left' style='color: #FFF; position: absolute; height: 100%; left:-25px; font-size: 35px; line-height: 400px; padding-left: 25px;'></a>",
         nextArrow: "<a type='button' class='glyphicon glyphicon-chevron-right' style='color: #FFF; position: absolute; height: 100%; right:-25px; font-size: 35px; line-height: 400px; padding-right: 25px;'></a>",
         responsive: [
@@ -124,6 +124,6 @@ var init = function(obj){
 };
 $(function(){
     resumedata = $.getJSON("resume.json", function(obj){
-        init(obj);
+        importResume(obj, initPlugins);
     });
 });
