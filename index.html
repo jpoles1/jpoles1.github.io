@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name=viewport content="width=device-width, initial-scale=1, user-zoom=false">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jordan Poles</title>
     <!--<link rel="stylesheet" href="css/flexboxgrid.min.css">-->
     <!--JQuery-->
@@ -63,7 +63,7 @@
             <div>
                 <a href="{{ProjectURL}}" target="_blank">
                     <div class="well projimg" style="text-align: center; position: relative;padding: 0px; overflow: hidden; width: 250px; height: 250px; margin: auto; background-image: url({{Image}}); background-size: contain;">
-                        <div class="projoverlay" style="padding: 15px; padding-bottom: 20px; position: absolute; bottom: 0; width: 100%; background-color: rgba(0,0,0,.8); color: #FFF; display: none;">
+                        <div class="projoverlay" style="padding: 15px; padding-bottom: 20px; position: absolute; bottom: 0; width: 100%; background-color: rgba(0,0,0,.8); color: #FFCC33; display: none;">
                             {{ProjectName}}
                         </div>
                     </div>
@@ -80,17 +80,20 @@
         <div class="container-fluid horizcells">
             {{#each entries}}
             <div class="row vertical-align {{../Theme}}">
-                <div class="col-lg-4 col-xs-6">
-                    <img class="img-circle img-responsive workimg" src="{{Image}}">
-                </div>
-                <div class="smallworkdiv col-xs-1"></div>
-                <div class="col-lg-3 col-xs-6">
+                <div class="col-lg-3 col-md-4 col-xs-6">
                     <h3>{{{Organization}}}</h3>
                     <h4>{{Duration}}</h4>
                     <h4>{{Location}}</h4>
                 </div>
-                <hr class="smallworkdiv col-xs-11" style="margin-bottom: -20px; display: none;">
-                <div class="col-lg-7 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-xs-6">
+                    <img class="img-responsive well workimg" src="{{Image}}" style="padding: 0;">
+                </div>
+                <div class="smallworkdiv col-xs-1" style="display: none;"></div>
+
+                <div class="smallworkdiv col-xs-11" style="margin-bottom: -20px; display: none;">
+                    <hr>
+                </div>
+                <div class="col-lg-6 col-md-7 col-xs-12">
                     <h3>{{{PositionTitle}}}</h3>
                     <hr>
                     <ul>
@@ -110,6 +113,24 @@
         <br>
         <h2>This Section is a Work in Progress!</h2>
     </div>
+    <script id="research-template" type="text/x-handlebars-template">
+        <br>
+        <h1>{{SectionTitle}}</h1>
+        <br>
+        <div id="{{SectionID}}Container" style="width: 90%; margin: auto; padding: 25px;">
+            {{#each entries}}
+            <div>
+                <a href="{{ProjectURL}}" target="_blank">
+                    <div class="well projimg" style="text-align: center; position: relative;padding: 0px; overflow: hidden; width: 250px; height: 250px; margin: auto; background-image: url({{Image}}); background-size: contain;">
+                        <div class="projoverlay" style="padding: 15px; padding-bottom: 20px; position: absolute; bottom: 0; width: 100%; background-color: rgba(0,0,0,.8); color: #FFF; display: none;">
+                            {{ProjectName}}
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {{/each}}
+        </div>
+    </script>
     <div id="research" class="dark noisy" style="text-align: center;">
         <br>
         <h1>Research Experience</h1>
@@ -163,66 +184,29 @@
             </tr>
         </table>
     </div>
-    <div id="publications" class="dark noisy" style="text-align: center;">
+    <script id="publications-template" type="text/x-handlebars-template">
         <br>
-        <h1>Publications</h1>
+        <h1>{{SectionTitle}}</h1>
         <br>
-        <!--<div style="display: flex; justify-content: space-around; align-content: space-around; flex-wrap: wrap; flex-direction: row;">
-            <div class="darkwell col-md-5" style="flex-grow: 1; margin: 10px; display: flex; flex-direction: column;">
-                <div><h3><a href="http://tandfonline.com/doi/abs/10.1080/19490976.2014.1000080" target="_blank">Inferred metagenomic comparison of mucosal and fecal microbiota from individuals undergoing routine screening colonoscopy reveals similar differences observed during active inflammation</a></h3></div>
-                <div>Tang, Mei San, <b>Jordan Poles</b>, Jacqueline M. Leung, Martin J. Wolff, Michael Davenport, Soo Ching Lee, Yvonne AL Lim, Kek Heng Chua, P'ng Loke, and Ilseung Cho.</div>
-                <br>
-                <div><b>Gut Microbes - Jan. 2015</b></div>
+        <div id="{{SectionID}}Container" style="width: 90%; margin: auto; padding: 25px;">
+            {{#each entries}}
+            <div style="display: inline;">
+                <a href="{{URL}}" target="_blank">
+                    <div class="well projimg" style="text-align: center; position: relative;padding: 0px; overflow: hidden; width: 350px; height: 350px; margin: auto; background-image: url({{Image}}); background-size: contain;">
+                        <div class="projoverlay" style="font-size: 18px; padding: 15px; padding-bottom: 20px; position: absolute; bottom: 0; width: 100%; background-color: rgba(0,0,0,.8); color: #FFF; display: none;">
+                            {{Title}}
+                            <hr>
+                            {{Publication}}
+                            <br>
+                            {{Date}}
+                        </div>
+                    </div>
+                </a>
             </div>
-            <div class="darkwell col-md-5" style="flex-grow: 1; margin: 10px; display: flex; flex-direction: column; justify-content: center;">
-                <div><h3><a href="http://online.liebertpub.com/doi/abs/10.1089/aid.2014.0233" target="_blank">Induction of Intestinal Immunity by Mucosal Vaccines As a Means of Controlling HIV Infection</a></h3></div>
-                <div><b>Poles, Jordan</b>, Yelina Alvarez, and Catarina E. Hioe.</div>
-                <div><b>AIDS Research and Human Retroviruses - Oct. 2014</b></div>
-            </div>
-            <div class="darkwell col-md-5" style="flex-grow: 1; margin: 10px;">
-                <h3><a href="http://tandfonline.com/doi/abs/10.1080/19490976.2014.1000080" target="_blank">Inferred metagenomic comparison of mucosal and fecal microbiota from individuals undergoing routine screening colonoscopy reveals similar differences observed during active inflammation</a></h3>
-                Tang, Mei San, <b>Jordan Poles</b>, Jacqueline M. Leung, Martin J. Wolff, Michael Davenport, Soo Ching Lee, Yvonne AL Lim, Kek Heng Chua, P'ng Loke, and Ilseung Cho.
-                <br>
-                <b>Gut Microbes - Jan. 2015</b>
-            </div>
-            <div class="darkwell col-md-5" style="flex-grow: 1; margin: 10px; vertical-align: middle;">
-                <h3><a href="http://online.liebertpub.com/doi/abs/10.1089/aid.2014.0233" target="_blank">Induction of Intestinal Immunity by Mucosal Vaccines As a Means of Controlling HIV Infection</a></h3>
-                <b>Poles, Jordan</b>, Yelina Alvarez, and Catarina E. Hioe.
-                <br>
-                <b>AIDS Research and Human Retroviruses - Oct. 2014</b>
-            </div>
-        </div>-->
-        <table id="pubcontainer">
-            <tr>
-                <td class="col-md-6 col-sm-6 darkwell">
-                    <h3><a href="http://tandfonline.com/doi/abs/10.1080/19490976.2014.1000080" target="_blank">Inferred metagenomic comparison of mucosal and fecal microbiota from individuals undergoing routine screening colonoscopy reveals similar differences observed during active inflammation</a></h3>
-                    Tang, Mei San, <b>Jordan Poles</b>, Jacqueline M. Leung, Martin J. Wolff, Michael Davenport, Soo Ching Lee, Yvonne AL Lim, Kek Heng Chua, P'ng Loke, and Ilseung Cho.
-                    <br>
-                    <b>Gut Microbes - Jan. 2015</b>
-                </td>
-                <td class="col-md-6 col-sm-6 darkwell">
-                    <h3><a href="http://online.liebertpub.com/doi/abs/10.1089/aid.2014.0233" target="_blank">Induction of Intestinal Immunity by Mucosal Vaccines As a Means of Controlling HIV Infection</a></h3>
-                    <b>Poles, Jordan</b>, Yelina Alvarez, and Catarina E. Hioe.
-                    <br>
-                    <b>AIDS Research and Human Retroviruses - Oct. 2014</b>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-md-6 col-sm-6 darkwell">
-                    <h3><a href="http://journals.lww.com/ibdjournal/pages/articleviewer.aspx?year=2014&issue=04000&article=00015&type=abstract" target="_blank">Metabolic Alterations to the Mucosal Microbiota in Inflammatory Bowel Disease</a></h3>
-                    Davenport, Michael, <b>Jordan Poles</b>, Jacqueline M. Leung, Martin J. Wolff, Wasif M. Abidi, Thomas Ullman, Lloyd Mayer, Ilseung Cho, and P'ng Loke
-                    <br>
-                    <b>Inflammatory Bowel Diseases - Apr. 2014</b>
-                </td>
-                <td class="col-md-6 col-sm-6 darkwell">
-                    <h3><a href="http://jem.rupress.org/content/210/9/1871" target="_blank">Lung dendritic cells induce migration of protective T cells to the gastrointestinal tract.</a></h3>
-                    Ruane, Darren, Lucas Brane, Bernardo Sgarbi Reis, Cheolho Cheong, <b>Jordan Poles</b>, Yoonkyung Do, Hongfa Zhu et al.
-                    <br>
-                    <b>JEM - Aug. 2013</b>
-                </td>
-            </tr>
-        </table>
-    </div>
+            {{/each}}
+        </div>
+    </script>
+    <div id="publications" class="dark noisy" style="text-align: center;"></div>
     <div id="grants" class="light noisy" style="text-align: center;">
         <br>
         <h1>Grants</h1>
