@@ -1,4 +1,4 @@
-#[<span style="color: #000000 !important;">Jordan Poles<br>jpoles1.github.io</span>](http://jpoles1.github.io/)
+<a href="http://jpoles1.github.io/"><h1>Jordan Poles<br>jpoles1.github.io</h1></a>
 This repository contains the code which drives my personal website. 
 - Templating is accomplished using handlebars.js
 - Ajax is used to fetch structured content from the resume.json datafile
