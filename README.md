@@ -5,4 +5,6 @@ This repository contains the code which drives my personal website.
 - This enables neat and easy updates to be pushed to the website!
 
 ##Screenshot:
-<img src="https://github.com/jpoles1/jpoles1.github.io/raw/master/img/screenshot.png"></img>
+<a href="http://jpoles1.github.io/"
+  <img src="https://github.com/jpoles1/jpoles1.github.io/raw/master/img/screenshot.png"></img>
+</a>
