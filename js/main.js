@@ -92,7 +92,7 @@ var initPlugins = function(obj){
         nextArrow: "<a type='button' class='glyphicon glyphicon-chevron-right' style='position: absolute; height: 100%; right:-40px; font-size: 35px; line-height: 350px; padding-right: 25px;'></a>",
         responsive: [
             {
-                breakpoint: 1200,
+                breakpoint: 1400,
                 settings: {
                     slidesToShow: 4,
                     slidesToScroll: 1,
@@ -103,6 +103,14 @@ var initPlugins = function(obj){
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     infinite: true
                 }
