@@ -196,14 +196,19 @@
     "Theme": "well",
     "entries": [
       {
+        "ProjectName": "Madagascar Invasion:<br>Analyzing invasive species data.",
+        "ProjectURL": "https://github.com/jpoles1/MadagascarInvasion",
+        "Image": "img/madagascar.jpg"
+      },
+      {
+        "ProjectName": "Haskell Euler:<br>Solving problems with Haskell!",
+        "ProjectURL": "https://github.com/jpoles1/HaskellEuler",
+        "Image": "img/euler.jpg"
+      },
+      {
         "ProjectName": "Rice Ridiculously Automated Dorm (RRAD!)",
         "ProjectURL": "https://hackaday.io/project/4898-rice-ridiculously-automated-dorm-rrad",
         "Image": "img/rrad.png"
-      },
-      {
-        "ProjectName": "Project Haskell Euler",
-        "ProjectURL": "https://github.com/jpoles1/HaskellEuler",
-        "Image": "img/euler.jpg"
       },
       {
         "ProjectName": "The Responsive Planter",
