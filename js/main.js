@@ -42,6 +42,10 @@ var initPlugins = function(obj){
     }, function(){
         $(this).children(".projoverlay").finish().slideUp();
     });
+    //Project link tracking
+    $(".projectlink").click(function(){
+        $.trigger("projectClick");
+    });
     //Slick Carosel
     $("#publicationsContainer").slick({
         infinite: true,
