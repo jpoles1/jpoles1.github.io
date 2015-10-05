@@ -28,7 +28,7 @@ var initPlugins = function(obj){
         var highlight = $(this).attr("data-highlight");
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top
-        }, 900, 'swing', function () {
+        }, 900, 'easeInOutQuart', function () {
             window.location.hash = target;
             if(highlight){
                 $(highlight).animateHighlight();
