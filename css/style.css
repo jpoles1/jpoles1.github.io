@@ -291,3 +291,13 @@ hr{
 .slick-dots{
     left: 0px;
 }
+.slickarrow{
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    z-index: 1;
+}
+.slickarrow:hover{
+    background-color: rgba(10, 10, 10, .5);
+    text-decoration: none !important;
+}

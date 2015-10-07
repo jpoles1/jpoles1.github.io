@@ -55,8 +55,8 @@ var initPlugins = function(obj){
         mobileFirst: true,
         autoplay: true,
         autoplaySpeed: 4000,
-        prevArrow: "<a type='button' class='glyphicon glyphicon-chevron-left' style='color: #FFF; position: absolute; height: 100%; left:-40px; font-size: 35px; line-height: 400px; padding-left: 25px;'></a>",
-        nextArrow: "<a type='button' class='glyphicon glyphicon-chevron-right' style='color: #FFF; position: absolute; height: 100%; right:-40px; font-size: 35px; line-height: 400px; padding-right: 25px;'></a>",
+        prevArrow: "<a type='button' class='slickarrow glyphicon glyphicon-chevron-left' style='color: #FFF; position: absolute; height: 100%; left:-40px; font-size: 35px; line-height: 400px;'></a>",
+        nextArrow: "<a type='button' class='slickarrow glyphicon glyphicon-chevron-right' style='color: #FFF; position: absolute; height: 100%; right:-40px; font-size: 35px; line-height: 400px; padding-right: 25px; padding-left: 25px;'></a>",
         responsive: [
             {
                 breakpoint: 1200,
@@ -85,36 +85,34 @@ var initPlugins = function(obj){
         ]
     });
     $("#projectsContainer").slick({
-        infinite: true,
+        infinite: false,
         slidesToShow: 3,
         slidesToScroll: 1,
         variableWidth: false,
         mobileFirst: true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 4000,
-        prevArrow: "<a type='button' class='glyphicon glyphicon-chevron-left' style='position: absolute; height: 100%; left:-40px; font-size: 35px; line-height: 350px; padding-left: 25px;'></a>",
-        nextArrow: "<a type='button' class='glyphicon glyphicon-chevron-right' style='position: absolute; height: 100%; right:-40px; font-size: 35px; line-height: 350px; padding-right: 25px;'></a>",
+        prevArrow: "<a type='button' class='slickarrow glyphicon glyphicon-chevron-left' style='position: absolute; height: 100%; left:-40px; font-size: 35px; line-height: 400px; padding-left: 25px;'></a>",
+        nextArrow: "<a type='button' class='slickarrow glyphicon glyphicon-chevron-right' style='position: absolute; height: 100%; right:-40px; font-size: 35px; line-height: 400px; padding-right: 25px;'></a>",
         responsive: [
             {
                 breakpoint: 1400,
                 settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 1,
-                    infinite: true
+                    slidesToShow: 3,
+                    slidesToScroll: 1
                 }
             },
             {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 1,
-                    infinite: true
+                    slidesToScroll: 1
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 700,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true
                 }
