@@ -206,9 +206,19 @@
         "Image": "img/euler.jpg"
       },
       {
+        "ProjectName": "Algorithm Attack:<br>Using the internet to teach myself computer science.",
+        "ProjectURL": "git@github.com:jpoles1/LearningAlgorithms.git",
+        "Image": "img/algorithms.png"
+      },
+      {
         "ProjectName": "Rice Ridiculously Automated Dorm (RRAD!)",
         "ProjectURL": "https://hackaday.io/project/4898-rice-ridiculously-automated-dorm-rrad",
         "Image": "img/rrad.png"
+      },
+      {
+        "ProjectName": "Code Wars:<br>Practicing my Code-Fu.",
+        "ProjectURL": "http://www.codewars.com/users/jpoles1/",
+        "Image": "img/codewars.png"
       },
       {
         "ProjectName": "The Responsive Planter",
