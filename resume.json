@@ -206,6 +206,11 @@
         "Image": "img/euler.jpg"
       },
       {
+        "ProjectName": "Team Wiess:<br>Designed and Coded the Wiess College Website",
+        "ProjectURL": "http://teamwiess.com",
+        "Image": "img/teamwiess.png"
+      },
+      {
         "ProjectName": "Algorithmic Approach:<br>Using the internet to teach myself computer science.",
         "ProjectURL": "https://github.com/jpoles1/LearningAlgorithms",
         "Image": "img/algorithms.png"
