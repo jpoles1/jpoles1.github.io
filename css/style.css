@@ -192,6 +192,11 @@ hr{
     background: #000;
     display: none;
 }
+@media (min-width: 1300px) {
+    .projimg{
+        width: 350px; height: 350px;
+    }
+}
 @media (min-width: 1000px) {
     .horizcells {
         padding-left: 3%;
@@ -202,6 +207,11 @@ hr{
         align-items: center;
     }
 }
+@media (min-width: 768px) {
+    .projimg{
+        width: 300px; height: 300px;
+    }
+}
 @media (max-width: 768px) {
     .smallworkdiv{
         display: block !important;
@@ -210,9 +220,10 @@ hr{
         font-size: 20px !important;
     }
     .projimg{
-        width: 120px; height: 120px; margin: auto;
+        width: 300px; height: 300px;
     }
 }
+
 .row{
     font-weight: normal;
     list-style-position:inside;
@@ -275,9 +286,6 @@ hr{
 }
 #projectsContainer{
     font-size: 24px;
-}
-.projimg{
-    width: 160px; height: 160px; margin: auto;
 }
 #projectsContainer hr{
     margin-top: 15px;
