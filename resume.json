@@ -201,14 +201,19 @@
         "Image": "img/madagascar.jpg"
       },
       {
-        "ProjectName": "Haskell Euler:<br>Solving problems with Haskell!",
-        "ProjectURL": "https://github.com/jpoles1/HaskellEuler",
-        "Image": "img/euler.jpg"
+        "ProjectName": "Jordan Presents Yaws:<br>Getting to know a forgotten tropical disease.",
+        "ProjectURL": "https://github.com/jpoles1/yawsAnalysis",
+        "Image": "img/yaws.jpg"
       },
       {
         "ProjectName": "Team Wiess:<br>Designed and Coded the Wiess College Website",
         "ProjectURL": "http://teamwiess.com",
         "Image": "img/teamwiess.png"
+      },
+      {
+        "ProjectName": "Haskell Euler:<br>Solving problems with Haskell!",
+        "ProjectURL": "https://github.com/jpoles1/HaskellEuler",
+        "Image": "img/euler.jpg"
       },
       {
         "ProjectName": "Algorithmic Approach:<br>Using the internet to teach myself computer science.",
