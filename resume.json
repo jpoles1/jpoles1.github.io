@@ -5,17 +5,6 @@
     "Theme": "darkwell",
     "entries": [
       {
-        "PositionTitle": "Director of Research/Patient Discharge Planner/Shift Leader",
-        "Organization": "Ben Taub Hospital<br>Patient Discharge Initiative (PDI)",
-        "Duration": "April 2014 - Present",
-        "Location": "Houston, TX",
-        "Image": "img/bentaub.gif",
-        "Description": [
-          "Lead a team of two discharge volunteers on shifts, coordinating discharge activities, maintaining records, and discharging patients.",
-          "Developed the initiative's quality improvement program from the ground up."
-        ]
-      },
-      {
         "PositionTitle": "Wiess Webmaster",
         "Organization": "Wiess College",
         "Duration": "April 2014 - Present",
@@ -50,6 +39,17 @@
           "Worked alongside a court of seven other justices to adjudicate, resolve inter-student disputes, infractions and other Wiess cases.",
           "Worked with the court to improve the safety of the on-campus drinking culture.",
           "Elected by the Wiess student body."
+        ]
+      },
+      {
+        "PositionTitle": "Director of Research/Patient Discharge Planner/Shift Leader",
+        "Organization": "Ben Taub Hospital<br>Patient Discharge Initiative (PDI)",
+        "Duration": "April 2014 - December 2015",
+        "Location": "Houston, TX",
+        "Image": "img/bentaub.gif",
+        "Description": [
+          "Lead a team of two discharge volunteers on shifts, coordinating discharge activities, maintaining records, and discharging patients.",
+          "Developed the initiative's quality improvement program from the ground up."
         ]
       },
       {
