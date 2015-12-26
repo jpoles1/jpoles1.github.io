@@ -196,6 +196,11 @@
     "Theme": "well",
     "entries": [
       {
+        "ProjectName": "Elegant Text:<br>Developing a Pebble Time Watchface in C",
+        "ProjectURL": "https://github.com/jpoles1/ElegantText",
+        "Image": "img/watch.png"
+      },
+      {
         "ProjectName": "Senate Survey:<br>Political Insights Through R",
         "ProjectURL": "https://github.com/jpoles1/finalStat405",
         "Image": "img/stat405final.png"
