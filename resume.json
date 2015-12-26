@@ -196,6 +196,11 @@
     "Theme": "well",
     "entries": [
       {
+        "ProjectName": "Senate Survey:<br>Political Insights Through R",
+        "ProjectURL": "https://github.com/jpoles1/finalStat405",
+        "Image": "img/stat405final.png"
+      },
+      {
         "ProjectName": "Madagascar Invasion:<br>Analyzing invasive species data.",
         "ProjectURL": "https://github.com/jpoles1/MadagascarInvasion",
         "Image": "img/madagascar.jpg"
