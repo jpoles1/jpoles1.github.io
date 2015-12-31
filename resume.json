@@ -206,6 +206,11 @@
         "Image": "img/stat405final.png"
       },
       {
+        "ProjectName": "Shiny SIRD:<br>Interactive Epidemic Modeling",
+        "ProjectURL": "https://github.com/jpoles1/shinySIRD",
+        "Image": "img/shinySIRD.png"
+      },
+      {
         "ProjectName": "Madagascar Invasion:<br>Analyzing invasive species data.",
         "ProjectURL": "https://github.com/jpoles1/MadagascarInvasion",
         "Image": "img/madagascar.jpg"
