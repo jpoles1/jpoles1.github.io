@@ -196,6 +196,11 @@
     "Theme": "well",
     "entries": [
       {
+        "ProjectName": "HackRice 2016 Finalist:<br>Poop Logger<br>Pebble for GI Health",
+        "ProjectURL": "http://devpost.com/software/pooplogger-gastrointestinal-health-tracking-on-pebble",
+        "Image": "img/pooplogger.png"
+      },
+      {
         "ProjectName": "Elegant Text:<br>Developing a Pebble Time Watchface in C",
         "ProjectURL": "https://github.com/jpoles1/ElegantText",
         "Image": "img/watch.png"
