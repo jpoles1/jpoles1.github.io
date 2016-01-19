@@ -201,6 +201,11 @@
         "Image": "img/pooplogger.png"
       },
       {
+        "ProjectName": "Interactive Pesticide Plot:<br>Utilizing D3 to Examine Global Pesticide Usage",
+        "ProjectURL": "http://jpoles1.github.io/pesticide/",
+        "Image": "img/pesticide.png"
+      },
+      {
         "ProjectName": "Elegant Text:<br>Developing a Pebble Time Watchface in C",
         "ProjectURL": "https://github.com/jpoles1/ElegantText",
         "Image": "img/watch.png"
