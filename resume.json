@@ -196,6 +196,11 @@
     "Theme": "well",
     "entries": [
       {
+        "ProjectName": "Hack-a-Day Feature:<br>An article about my dorm automation system",
+        "ProjectURL": "http://hackaday.com/2016/02/13/ridiculously-automated-dorm-room/",
+        "Image": "img/rradarticle.png"
+      },
+      {
         "ProjectName": "HackRice 2016 Finalist:<br>Poop Logger<br>Pebble for GI Health",
         "ProjectURL": "http://devpost.com/software/pooplogger-gastrointestinal-health-tracking-on-pebble",
         "Image": "img/pooplogger.png"
