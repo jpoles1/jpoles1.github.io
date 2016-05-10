@@ -196,6 +196,11 @@
     "Theme": "well",
     "entries": [
       {
+        "ProjectName": "HOUTix:<br>Analysis of Houston parking citations.",
+        "ProjectURL": "https://github.com/jpoles1/HOUTix/blob/master/README.md",
+        "Image": "img/HOUTix.png"
+      },
+      {
         "ProjectName": "Hack-a-Day Feature:<br>An article about my dorm automation system",
         "ProjectURL": "http://hackaday.com/2016/02/13/ridiculously-automated-dorm-room/",
         "Image": "img/rradarticle.png"
