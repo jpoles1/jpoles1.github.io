@@ -196,6 +196,11 @@
     "Theme": "well",
     "entries": [
       {
+        "ProjectName": "Houston Interactive Parking Ticket Map",
+        "ProjectURL": "http://jpoles1.github.io/HOUTix/",
+        "Image": "img/ticket_map.png"
+      },
+      {
         "ProjectName": "HOUTix:<br>Analysis of Houston parking citations.",
         "ProjectURL": "https://github.com/jpoles1/HOUTix/blob/master/README.md",
         "Image": "img/HOUTix.png"
