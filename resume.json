@@ -321,5 +321,28 @@
         "URL": "http://jem.rupress.org/content/210/9/1871"
       }
     ]
+  },
+  "presentations": {
+    "SectionTitle": "Presentations",
+    "SectionID": "presentations",
+    "Theme": "darkwell",
+    "entries": [
+      {
+        "Title": "Role of retinoic acid in diet induced obesity",
+        "Where": "IMMUNOLOGY 2016",
+        "Date": "May 2016",
+        "URL": "http://www.jimmunol.org/content/196/1_Supplement/124.53.short"
+      },
+      {
+        "Title": "Metabolic Alterations to the Mucosal Microbiota of Inflammatory Bowel Disease Patients are Associated with Cd4+ T Cell Homeostasis",
+        "Where": "???",
+        "Date": "???"
+      },
+      {
+        "Title": "Induction of Gastrointestinal Anti-HIV Immune Response via DEC-205 Targeted Intranasal Vaccination",
+        "Where": "DDW 2013",
+        "Date": "??? 2013"
+      }
+    ]
   }
 }
