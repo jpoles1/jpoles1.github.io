@@ -1,5 +1,7 @@
 <html>
   <head>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/handlebars.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
       @page {
@@ -7,6 +9,11 @@
         @bottom-right {
           content: counter(page);
         }
+      }
+      #container{
+        width: 8.5in;
+        height: 11in;
+        padding: 0;
       }
       h1{
         font-size: 26pt;
@@ -20,23 +27,66 @@
       table, figure {
         page-break-inside: avoid;
       }
+      table{
+        text-align: center;
+      }
+      #header{
+        color: white;
+        background-color: #333;
+        padding: 20px;
+      }
+      #header a{
+        color: white;
+      }
+      #nameplate{
+        width: 520px;
+        margin auto;
+        border: 2px solid white;
+        padding: 10px;
+        font-size: 52pt;
+        margin-bottom: 25px;
+      }
+      .section{
+        border: 1px solid black;
+      }
     </style>
   </head>
   <body>
     <center>
-      <div class="container-fluid">
-        <h1>Jordan Poles</h1>
-        <h4>jpoles1.github.io<br>jpoles1@gmail.com<br>914-539-0995</h4>
-        <hr>
-        <div class="row-fluid">
-          <div class="col-xs-8" style="border-right: 1px solid black;">
-            <h2>Education</h2>
-          </div>
-          <div class="col-xs-4">
-
-          </div>
+      <div id="container">
+        <div id="header">
+          <h1 id="nameplate">Jordan Poles</h1>
+          <div style="width: 300px; margin: auto;"><hr></div>
+          <h4 style="line-height: 1.5; margin: -10px; font-weight: bold;">
+            <a href="http://jpoles1.github.io">jpoles1.github.io</a><br>
+            jpoles1@gmail.com<br>
+            914-539-0995
+          </h4>
+          <div style="width: 300px; margin: auto;"><hr></div>
+        </div>
+        <div>
+          <div id="education" class="section"></div>
+          <div id="work" class="section"></div>
+          <div id="research" class="section"></div>
+          <div id="extracurricular" class="section"></div>
         </div>
       </div>
     </center>
   </body>
+  <script>
+    $(function(){
+      $.get("resume.json", function(data){
+        $.get("resume_templates/education.hbs", function(education_template_string){
+          var education_template = Handlebars.compile(education_template_string);
+          $("#education").html(education_template())
+        })
+        $.ajax({url: "resume_templates/work.hbs", cache: 0}).done(function(work_template_string){
+          console.log(work_template_string)
+          var work_template = Handlebars.compile(work_template_string);
+          console.log(data.work.entries)
+          $("#work").html(work_template({work: data.work.entries}))
+        })
+      })
+    })
+  </script>
 </html>

@@ -1,0 +1,17 @@
+<h2>Work Experience</h2>
+<table>
+  {{#each work}}
+    <tr>
+      <td>
+        <b>{{Organization}}</b><br>
+        {{Location}}<br>
+        <i>{{Duration}}</i>
+      </td>
+      <td><ul>
+        {{#each Description}}
+          <li>{{{this}}}</li>
+        {{/each}}
+      </ul></td>
+    </tr>
+  {{/each}}
+</table>
