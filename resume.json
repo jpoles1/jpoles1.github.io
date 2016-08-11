@@ -125,11 +125,11 @@
         "Duration": "June - August 2015",
         "Location": "Houston, TX",
         "Image": "img/hope.png",
+        "resumeDisplay": 1,
         "Description": [
           "Served as a medical scribe at a clinic which serves Houston's diverse community, as well as those who cannot typically afford healthcare.",
           "Performed analysis on the clinic's EMR data, results to be presented at the <a href='#abstracts' data-highlight='#AAPI'>AAPI Health Summit</a> 2015.",
-          "Work was sponsored by the Susan McAshan Summer Service Internship grant.",
-          "<a id='hopeinfo' href='#hopemodal'>Click here</a> to learn more about my work at the clinic!"
+          "Work was sponsored by the Susan McAshan Summer Service Internship grant."
         ]
       },
       {
@@ -138,10 +138,11 @@
         "Duration": "2009 - Present",
         "Location": "Chappaqua, NY",
         "Image": "img/freelance.png",
+        "resumeDisplay": 1,
         "Description": [
-          "Developed for clients in Texas, across the Northeast, and as far as India.",
-          "In High School, co-founded a successful web development company (Distilled Design)",
-          "Clients include an online ticket vendor, awning distributor, NY fashion boutique, and artisanal bakery"
+          "I have applied my skills in many different fields: from research and data visualization, to personal projects and business.",
+          "In High School, co-founded a successful web development company.",
+          "I have worked for clients in Texas, across the Northeast, and as far as India. They include an online ticket vendor, awning distributor, NYC fashion boutique, and artisanal bakery"
         ]
       },
       {

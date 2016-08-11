@@ -6,9 +6,13 @@
     <style>
       @page {
         size: 8.5in 11in;
+        margin: 1in;
         @bottom-right {
           content: counter(page);
         }
+      }
+      a:after {
+        display: none;
       }
       #container{
         width: 8.5in;
@@ -23,6 +27,24 @@
       }
       h1, h2, h3, h4, h5 {
         page-break-after: avoid;
+      }
+      table{
+        text-align: center;
+        vertical-align: middle;
+        width: 100%;
+      }
+      tr{
+        border-top: 1px solid #ccc;
+      }
+      td{
+        min-width: 250px;
+        padding: 20px 10px 20px 10px;
+      }
+      ul{
+        text-align: left;
+      }
+      li{
+        margin-bottom: 12px;
       }
       .avoid{
         page-break-inside: avoid;
@@ -47,6 +69,7 @@
         margin-bottom: 25px;
       }
       .section{
+        page-break-inside: avoid;
         border: 1px solid black;
       }
     </style>
@@ -65,6 +88,16 @@
           <div style="width: 300px; margin: auto;"><hr></div>
         </div>
         <div>
+          <div id="summary" class="section">
+            <h2>Summary</h2>
+            <table>
+              <ul class="avoid" style="border-top: 1px solid #ccc; font-size: 14pt; text-align: center; list-style-type: none; padding: 20px;">
+                <li><u style="text-transform: capitalize;">I am an innovator, programmer, and DIYer with a passion for healthcare</u></li>
+                <li><i>I seek to build a fulfilling career by tackling some of the innumerable problems present in modern healthcare through a combination of compassionate clinical work, and data-driven research.</i></li>
+                <li><i>I aspire to utilize my love of technology, innovation, and data to usher forward the progress of medicine into the modern era of technology and automation with better outcomes for patient across the system.</li>
+              </ul>
+            </table>
+          </div>
           <div id="education" class="section"></div>
           <div id="work" class="section"></div>
           <div id="research" class="section"></div>

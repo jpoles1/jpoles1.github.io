@@ -1,21 +1,25 @@
 <h2>Work Experience</h2>
 <table>
   {{#each work}}
-    <tr>
-      <td>
-        <div class="avoid">
-          <b>{{Organization}}</b><br>
-          {{Location}}<br>
-          <i>{{Duration}}</i>
-        </div>
-      </td>
-      <td><ul>
-        <div class="avoid">
-          {{#each Description}}
-            <li>{{{this}}}</li>
-          {{/each}}
-        </div>
-      </ul></td>
-    </tr>
+    {{#if resumeDisplay}}
+      <tr>
+        <td>
+          <div class="avoid">
+            <b>{{Organization}}</b><br>
+            {{Location}}<br>
+            <i>{{Duration}}</i>
+          </div>
+        </td>
+        <td><ul>
+          <div class="avoid">
+            {{#each Description}}
+              <li>
+                {{{this}}}
+              </li>
+            {{/each}}
+          </div>
+        </ul></td>
+      </tr>
+    {{/if}}
   {{/each}}
 </table>
