@@ -24,7 +24,7 @@
       h1, h2, h3, h4, h5 {
         page-break-after: avoid;
       }
-      table, figure {
+      .avoid{
         page-break-inside: avoid;
       }
       table{
@@ -83,7 +83,6 @@
         $.ajax({url: "resume_templates/work.hbs", cache: 0}).done(function(work_template_string){
           console.log(work_template_string)
           var work_template = Handlebars.compile(work_template_string);
-          console.log(data.work.entries)
           $("#work").html(work_template({work: data.work.entries}))
         })
       })

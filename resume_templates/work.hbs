@@ -3,14 +3,18 @@
   {{#each work}}
     <tr>
       <td>
-        <b>{{Organization}}</b><br>
-        {{Location}}<br>
-        <i>{{Duration}}</i>
+        <div class="avoid">
+          <b>{{Organization}}</b><br>
+          {{Location}}<br>
+          <i>{{Duration}}</i>
+        </div>
       </td>
       <td><ul>
-        {{#each Description}}
-          <li>{{{this}}}</li>
-        {{/each}}
+        <div class="avoid">
+          {{#each Description}}
+            <li>{{{this}}}</li>
+          {{/each}}
+        </div>
       </ul></td>
     </tr>
   {{/each}}
