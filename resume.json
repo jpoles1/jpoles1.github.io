@@ -1,4 +1,254 @@
 {
+  "projects": {
+    "SectionTitle": "Passion Projects",
+    "SectionID": "projects",
+    "Theme": "well",
+    "entries": [
+      {
+        "ProjectName": "NYU SOM ECG Trainer:<br>An online tool for self-teaching and mastering ECG interpretation.",
+        "ProjectURL": "https://education.med.nyu.edu/ecg/auth",
+        "Image": "img/ALoE.png"
+      },
+      {
+        "ProjectName": "Houston Interactive Parking Ticket Map",
+        "ProjectURL": "http://jpoles1.github.io/HOUTix/",
+        "Image": "img/ticket_map.png"
+      },
+      {
+        "ProjectName": "HOUTix:<br>Analysis of Houston parking citations.",
+        "ProjectURL": "https://github.com/jpoles1/HOUTix/blob/master/README.md",
+        "Image": "img/HOUTix.png"
+      },
+      {
+        "ProjectName": "Hack-a-Day Feature:<br>An article about my dorm automation system",
+        "ProjectURL": "http://hackaday.com/2016/02/13/ridiculously-automated-dorm-room/",
+        "Image": "img/rradarticle.png"
+      },
+      {
+        "ProjectName": "HackRice 2016 Finalist:<br>Poop Logger<br>Pebble for GI Health",
+        "ProjectURL": "http://devpost.com/software/pooplogger-gastrointestinal-health-tracking-on-pebble",
+        "Image": "img/pooplogger.png"
+      },
+      {
+        "ProjectName": "Interactive Pesticide Plot:<br>Utilizing D3 to Examine Global Pesticide Usage",
+        "ProjectURL": "http://jpoles1.github.io/pesticide/",
+        "Image": "img/pesticide.png"
+      },
+      {
+        "ProjectName": "Elegant Text:<br>Developing a Pebble Time Watchface in C",
+        "ProjectURL": "https://github.com/jpoles1/ElegantText",
+        "Image": "img/watch.png"
+      },
+      {
+        "ProjectName": "Senate Survey:<br>Political Insights Through R",
+        "ProjectURL": "https://github.com/jpoles1/finalStat405/raw/master/reports/finalAnalysis.pdf",
+        "Image": "img/stat405final.png"
+      },
+      {
+        "ProjectName": "Shiny SIRD:<br>Interactive Epidemic Modeling",
+        "ProjectURL": "https://github.com/jpoles1/shinySIRD",
+        "Image": "img/shinySIRD.png"
+      },
+      {
+        "ProjectName": "Madagascar Invasion:<br>Analyzing invasive species data.",
+        "ProjectURL": "https://github.com/jpoles1/MadagascarInvasion",
+        "Image": "img/madagascar.jpg"
+      },
+      {
+        "ProjectName": "Jordan Presents Yaws:<br>Getting to know a forgotten tropical disease.",
+        "ProjectURL": "https://github.com/jpoles1/yawsAnalysis",
+        "Image": "img/yaws.jpg"
+      },
+      {
+        "ProjectName": "Team Wiess:<br>Designed and Coded the Wiess College Website",
+        "ProjectURL": "http://teamwiess.com",
+        "Image": "img/teamwiess.png"
+      },
+      {
+        "ProjectName": "Haskell Euler:<br>Solving problems with Haskell!",
+        "ProjectURL": "https://github.com/jpoles1/HaskellEuler",
+        "Image": "img/euler.jpg"
+      },
+      {
+        "ProjectName": "Algorithmic Approach:<br>Using the internet to teach myself computer science.",
+        "ProjectURL": "https://github.com/jpoles1/LearningAlgorithms",
+        "Image": "img/algorithms.png"
+      },
+      {
+        "ProjectName": "Rice Ridiculously Automated Dorm (RRAD!)",
+        "ProjectURL": "https://hackaday.io/project/4898-rice-ridiculously-automated-dorm-rrad",
+        "Image": "img/rrad.png"
+      },
+      {
+        "ProjectName": "Code Wars:<br>Practicing my Code-Fu.",
+        "ProjectURL": "http://www.codewars.com/users/jpoles1/",
+        "Image": "img/codewars.png"
+      },
+      {
+        "ProjectName": "The Responsive Planter",
+        "ProjectURL": "https://hackaday.io/project/5652-responsive-planter",
+        "Image": "img/planter.jpg"
+      },
+      {
+        "ProjectName": "My GitHub",
+        "ProjectURL": "http://github.com/jpoles1",
+        "Image": "img/github.jpg"
+      },
+      {
+        "ProjectName": "My Hack-A-Day Profile",
+        "ProjectURL": "http://hackaday.io/jpoles1",
+        "Image": "img/hackaday.png"
+      }
+    ]
+  },
+  "work": {
+    "SectionTitle": "Work Experience",
+    "SectionID": "work",
+    "Theme": "darkwell",
+    "entries": [
+      {
+        "PositionTitle": "Medical Education Technology R&D Intern",
+        "Organization": "Insitute for Innovations in Medical Education",
+        "Duration": "Summer 2016",
+        "Location": "New York City",
+        "Image": "img/nyu.jpg",
+        "resumeDisplay": 1,
+        "Description": [
+          "Worked at NYU with the Division of Learning Analytics to develop an <a href='https://education.med.nyu.edu/ecg/auth' target='blank'>online tool</a> for ECG interpretation self-education and mastery.",
+          "Analyzed and visualized data from a study on the dynamics of online ECG learning.",
+          "Authoring a manuscript regarding this study for publication."
+        ]
+      },
+      {
+        "PositionTitle": "Medical Data Analysis Intern and Medical Scribe",
+        "Organization": "HOPE Clinic",
+        "Duration": "June - August 2015",
+        "Location": "Houston, TX",
+        "Image": "img/hope.png",
+        "resumeDisplay": 1,
+        "Description": [
+          "Served as a medical scribe at a clinic which serves Houston's diverse community, as well as those who cannot typically afford healthcare.",
+          "Performed analysis on the clinic's EMR data, results to be presented at the <a href='#abstracts' data-highlight='#AAPI'>AAPI Health Summit</a> 2015.",
+          "Work was sponsored by the Susan McAshan Summer Service Internship grant."
+        ]
+      },
+      {
+        "PositionTitle": "Freelance Web Designer & Developer",
+        "Organization": "Distilled Design",
+        "Duration": "2009 - Present",
+        "Location": "Chappaqua, NY",
+        "Image": "img/freelance.png",
+        "resumeDisplay": 1,
+        "Description": [
+          "I have applied my skills in many different fields: from research and data visualization, to personal projects and business.",
+          "In High School, co-founded a successful web development company.",
+          "I have worked for clients in Texas, across the Northeast, and as far as India. They include an online ticket vendor, awning distributor, NYC fashion boutique, and artisanal bakery"
+        ]
+      },
+      {
+        "PositionTitle": "Webmaster",
+        "Organization": "Sue Bolen Publicity",
+        "Duration": "2012 - 2014",
+        "Location": "Chappaqua, NY",
+        "Image": "img/suebolen.jpg",
+        "Description": [
+          "Responsible for regularly maintaining and updating content.",
+          "Redesigned several pages."
+        ]
+      },
+      {
+        "PositionTitle": "Designer, Developer and Editor",
+        "Organization": "NYU Department of Educational Informatics",
+        "Duration": "Summer 2009",
+        "Location": "New York City",
+        "Image": "img/nyu.jpg",
+        "Description": [
+          "Developed Virtual Clinic and Learning Modules.",
+          "Developed medical reading list technology."
+        ]
+      }
+    ]
+  },
+  "grants":{
+    "Section Title": "Grants",
+    "SectionID": "grants",
+    "Theme": "well",
+    "entries": [
+      {
+        "Title": "HOPE Clinic: Medical Scribing & Tackling The Electronic Medical Record",
+        "Duration": "June 2015 - August 2015",
+        "Name": "Susan McAshan Summer Service Internship"
+      },
+      {
+        "Title": "Metabolic Alterations to the Mucosal Microbiota in Inflammatory Bowel Disease",
+        "Duration": "June 2013 - September 2013",
+        "Name": "AGA-Eli & Edythe Broad Student Research Fellowship"
+      },
+      {
+        "Title": "The Induction of a Cytotoxic and Neutralizing GI Mucosal Immune Response Against HIV Through Targeted Intranasal Vaccination",
+        "Duration": "June 2012 - September 2012",
+        "Name": "AGA-Eli & Edythe Broad Student Research Fellowship"
+      }
+    ]
+  },
+  "publications": {
+    "SectionTitle": "Publications",
+    "SectionID": "publications",
+    "Theme": "darkwell",
+    "entries": [
+      {
+        "Title": "Inferred metagenomic comparison of mucosal and fecal microbiota from individuals undergoing routine screening colonoscopy reveals similar differences observed during active inflammation",
+        "Publication": "Gut Microbes",
+        "Date": "Jan. 2015",
+        "Image": "img/gutmicrobes.png",
+        "URL": "http://www.tandfonline.com/doi/abs/10.1080/19490976.2014.1000080"
+      },
+      {
+        "Title": "Induction of Intestinal Immunity by Mucosal Vaccines As a Means of Controlling HIV Infection",
+        "Publication": "AIDS Research and Human Retroviruses",
+        "Date": "Nov. 2014",
+        "Image": "img/aidsresearch.png",
+        "URL": "http://online.liebertpub.com/doi/abs/10.1089/aid.2014.0233"
+      },
+      {
+        "Title": "Metabolic Alterations to the Mucosal Microbiota in Inflammatory Bowel Disease",
+        "Publication": "Inflammatory Bowel Diseases",
+        "Date": "Apr. 2014",
+        "Image": "img/ibd.png",
+        "URL": "http://journals.lww.com/ibdjournal/Citation/2014/04000/Metabolic_Alterations_to_the_Mucosal_Microbiota_in.15.aspx"
+      },
+      {
+        "Title": "Lung dendritic cells induce migration of protective T cells to the gastrointestinal tract",
+        "Publication": "Journal of Experimental Medicine",
+        "Date": "Aug. 2013",
+        "Image": "img/jem.png",
+        "URL": "http://jem.rupress.org/content/210/9/1871"
+      }
+    ]
+  },
+  "presentations": {
+    "SectionTitle": "Presentations",
+    "SectionID": "presentations",
+    "Theme": "darkwell",
+    "entries": [
+      {
+        "Title": "Role of retinoic acid in diet induced obesity",
+        "Where": "IMMUNOLOGY 2016",
+        "Date": "May 2016",
+        "URL": "http://www.jimmunol.org/content/196/1_Supplement/124.53.short"
+      },
+      {
+        "Title": "Metabolic Alterations to the Mucosal Microbiota of Inflammatory Bowel Disease Patients are Associated with Cd4+ T Cell Homeostasis",
+        "Where": "???",
+        "Date": "???"
+      },
+      {
+        "Title": "Induction of Gastrointestinal Anti-HIV Immune Response via DEC-205 Targeted Intranasal Vaccination",
+        "Where": "DDW 2013",
+        "Date": "??? 2013"
+      }
+    ]
+  },
   "extracurricular": {
     "SectionTitle": "Extracurricular Experience",
     "SectionID": "extracurricular",
@@ -111,243 +361,6 @@
           "Member of the Delta Leadership Team",
           "Earned Black Belt in May, 2010"
         ]
-      }
-    ]
-  },
-  "work": {
-    "SectionTitle": "Work Experience",
-    "SectionID": "work",
-    "Theme": "well",
-    "entries": [
-      {
-        "PositionTitle": "Medical Data Analysis Intern and Medical Scribe",
-        "Organization": "HOPE Clinic",
-        "Duration": "June - August 2015",
-        "Location": "Houston, TX",
-        "Image": "img/hope.png",
-        "resumeDisplay": 1,
-        "Description": [
-          "Served as a medical scribe at a clinic which serves Houston's diverse community, as well as those who cannot typically afford healthcare.",
-          "Performed analysis on the clinic's EMR data, results to be presented at the <a href='#abstracts' data-highlight='#AAPI'>AAPI Health Summit</a> 2015.",
-          "Work was sponsored by the Susan McAshan Summer Service Internship grant."
-        ]
-      },
-      {
-        "PositionTitle": "Freelance Web Designer & Developer",
-        "Organization": "Distilled Design",
-        "Duration": "2009 - Present",
-        "Location": "Chappaqua, NY",
-        "Image": "img/freelance.png",
-        "resumeDisplay": 1,
-        "Description": [
-          "I have applied my skills in many different fields: from research and data visualization, to personal projects and business.",
-          "In High School, co-founded a successful web development company.",
-          "I have worked for clients in Texas, across the Northeast, and as far as India. They include an online ticket vendor, awning distributor, NYC fashion boutique, and artisanal bakery"
-        ]
-      },
-      {
-        "PositionTitle": "Webmaster",
-        "Organization": "Sue Bolen Publicity",
-        "Duration": "2012 - 2014",
-        "Location": "Chappaqua, NY",
-        "Image": "img/suebolen.jpg",
-        "Description": [
-          "Responsible for regularly maintaining and updating content.",
-          "Redesigned several pages."
-        ]
-      },
-      {
-        "PositionTitle": "Designer, Developer and Editor",
-        "Organization": "NYU Department of Educational Informatics",
-        "Duration": "2009 - 2010",
-        "Location": "Chappaqua, NY",
-        "Image": "img/nyu.jpg",
-        "Description": [
-          "Developed Virtual Clinic and Learning Modules.",
-          "Developed medical reading list technology."
-        ]
-      }
-    ]
-  },
-  "grants":{
-    "Section Title": "Grants",
-    "SectionID": "grants",
-    "Theme": "well",
-    "entries": [
-      {
-        "Title": "HOPE Clinic: Medical Scribing & Tackling The Electronic Medical Record",
-        "Duration": "June 2015 - August 2015",
-        "Name": "Susan McAshan Summer Service Internship"
-      },
-      {
-        "Title": "Metabolic Alterations to the Mucosal Microbiota in Inflammatory Bowel Disease",
-        "Duration": "June 2013 - September 2013",
-        "Name": "AGA-Eli & Edythe Broad Student Research Fellowship"
-      },
-      {
-        "Title": "The Induction of a Cytotoxic and Neutralizing GI Mucosal Immune Response Against HIV Through Targeted Intranasal Vaccination",
-        "Duration": "June 2012 - September 2012",
-        "Name": "AGA-Eli & Edythe Broad Student Research Fellowship"
-      }
-    ]
-  },
-  "projects": {
-    "SectionTitle": "Personal Projects",
-    "SectionID": "projects",
-    "Theme": "well",
-    "entries": [
-      {
-        "ProjectName": "NYU SOM ECG Trainer:<br>An online tool for self-teaching and mastering ECG interpretation.",
-        "ProjectURL": "https://education.med.nyu.edu/ecg/auth",
-        "Image": "img/ALoE.png"
-      },
-      {
-        "ProjectName": "Houston Interactive Parking Ticket Map",
-        "ProjectURL": "http://jpoles1.github.io/HOUTix/",
-        "Image": "img/ticket_map.png"
-      },
-      {
-        "ProjectName": "HOUTix:<br>Analysis of Houston parking citations.",
-        "ProjectURL": "https://github.com/jpoles1/HOUTix/blob/master/README.md",
-        "Image": "img/HOUTix.png"
-      },
-      {
-        "ProjectName": "Hack-a-Day Feature:<br>An article about my dorm automation system",
-        "ProjectURL": "http://hackaday.com/2016/02/13/ridiculously-automated-dorm-room/",
-        "Image": "img/rradarticle.png"
-      },
-      {
-        "ProjectName": "HackRice 2016 Finalist:<br>Poop Logger<br>Pebble for GI Health",
-        "ProjectURL": "http://devpost.com/software/pooplogger-gastrointestinal-health-tracking-on-pebble",
-        "Image": "img/pooplogger.png"
-      },
-      {
-        "ProjectName": "Interactive Pesticide Plot:<br>Utilizing D3 to Examine Global Pesticide Usage",
-        "ProjectURL": "http://jpoles1.github.io/pesticide/",
-        "Image": "img/pesticide.png"
-      },
-      {
-        "ProjectName": "Elegant Text:<br>Developing a Pebble Time Watchface in C",
-        "ProjectURL": "https://github.com/jpoles1/ElegantText",
-        "Image": "img/watch.png"
-      },
-      {
-        "ProjectName": "Senate Survey:<br>Political Insights Through R",
-        "ProjectURL": "https://github.com/jpoles1/finalStat405/raw/master/reports/finalAnalysis.pdf",
-        "Image": "img/stat405final.png"
-      },
-      {
-        "ProjectName": "Shiny SIRD:<br>Interactive Epidemic Modeling",
-        "ProjectURL": "https://github.com/jpoles1/shinySIRD",
-        "Image": "img/shinySIRD.png"
-      },
-      {
-        "ProjectName": "Madagascar Invasion:<br>Analyzing invasive species data.",
-        "ProjectURL": "https://github.com/jpoles1/MadagascarInvasion",
-        "Image": "img/madagascar.jpg"
-      },
-      {
-        "ProjectName": "Jordan Presents Yaws:<br>Getting to know a forgotten tropical disease.",
-        "ProjectURL": "https://github.com/jpoles1/yawsAnalysis",
-        "Image": "img/yaws.jpg"
-      },
-      {
-        "ProjectName": "Team Wiess:<br>Designed and Coded the Wiess College Website",
-        "ProjectURL": "http://teamwiess.com",
-        "Image": "img/teamwiess.png"
-      },
-      {
-        "ProjectName": "Haskell Euler:<br>Solving problems with Haskell!",
-        "ProjectURL": "https://github.com/jpoles1/HaskellEuler",
-        "Image": "img/euler.jpg"
-      },
-      {
-        "ProjectName": "Algorithmic Approach:<br>Using the internet to teach myself computer science.",
-        "ProjectURL": "https://github.com/jpoles1/LearningAlgorithms",
-        "Image": "img/algorithms.png"
-      },
-      {
-        "ProjectName": "Rice Ridiculously Automated Dorm (RRAD!)",
-        "ProjectURL": "https://hackaday.io/project/4898-rice-ridiculously-automated-dorm-rrad",
-        "Image": "img/rrad.png"
-      },
-      {
-        "ProjectName": "Code Wars:<br>Practicing my Code-Fu.",
-        "ProjectURL": "http://www.codewars.com/users/jpoles1/",
-        "Image": "img/codewars.png"
-      },
-      {
-        "ProjectName": "The Responsive Planter",
-        "ProjectURL": "https://hackaday.io/project/5652-responsive-planter",
-        "Image": "img/planter.jpg"
-      },
-      {
-        "ProjectName": "My GitHub",
-        "ProjectURL": "http://github.com/jpoles1",
-        "Image": "img/github.jpg"
-      },
-      {
-        "ProjectName": "My Hack-A-Day Profile",
-        "ProjectURL": "http://hackaday.io/jpoles1",
-        "Image": "img/hackaday.png"
-      }
-    ]
-  },
-  "publications": {
-    "SectionTitle": "Publications",
-    "SectionID": "publications",
-    "Theme": "darkwell",
-    "entries": [
-      {
-        "Title": "Inferred metagenomic comparison of mucosal and fecal microbiota from individuals undergoing routine screening colonoscopy reveals similar differences observed during active inflammation",
-        "Publication": "Gut Microbes",
-        "Date": "Jan. 2015",
-        "Image": "img/gutmicrobes.png",
-        "URL": "http://www.tandfonline.com/doi/abs/10.1080/19490976.2014.1000080"
-      },
-      {
-        "Title": "Induction of Intestinal Immunity by Mucosal Vaccines As a Means of Controlling HIV Infection",
-        "Publication": "AIDS Research and Human Retroviruses",
-        "Date": "Nov. 2014",
-        "Image": "img/aidsresearch.png",
-        "URL": "http://online.liebertpub.com/doi/abs/10.1089/aid.2014.0233"
-      },
-      {
-        "Title": "Metabolic Alterations to the Mucosal Microbiota in Inflammatory Bowel Disease",
-        "Publication": "Inflammatory Bowel Diseases",
-        "Date": "Apr. 2014",
-        "Image": "img/ibd.png",
-        "URL": "http://journals.lww.com/ibdjournal/Citation/2014/04000/Metabolic_Alterations_to_the_Mucosal_Microbiota_in.15.aspx"
-      },
-      {
-        "Title": "Lung dendritic cells induce migration of protective T cells to the gastrointestinal tract",
-        "Publication": "Journal of Experimental Medicine",
-        "Date": "Aug. 2013",
-        "Image": "img/jem.png",
-        "URL": "http://jem.rupress.org/content/210/9/1871"
-      }
-    ]
-  },
-  "presentations": {
-    "SectionTitle": "Presentations",
-    "SectionID": "presentations",
-    "Theme": "darkwell",
-    "entries": [
-      {
-        "Title": "Role of retinoic acid in diet induced obesity",
-        "Where": "IMMUNOLOGY 2016",
-        "Date": "May 2016",
-        "URL": "http://www.jimmunol.org/content/196/1_Supplement/124.53.short"
-      },
-      {
-        "Title": "Metabolic Alterations to the Mucosal Microbiota of Inflammatory Bowel Disease Patients are Associated with Cd4+ T Cell Homeostasis",
-        "Where": "???",
-        "Date": "???"
-      },
-      {
-        "Title": "Induction of Gastrointestinal Anti-HIV Immune Response via DEC-205 Targeted Intranasal Vaccination",
-        "Where": "DDW 2013",
-        "Date": "??? 2013"
       }
     ]
   }
