@@ -47,12 +47,12 @@
                 <nav class="collapse navbar-collapse" id="navbarCollapsible">
                     <ul class="nav nav-tabs navbar-nav" role="tablist">
                         <li><a href="#projects">Projects</a></li>
-                        <li><a href="#extracurricular">Extracurricular</a></li>
                         <li><a href="#work">Work</a></li>
                         <li><a href="#research">Research</a></li>
                         <li><a href="#abstracts">Presentations</a></li>
                         <li><a href="#publications">Publications</a></li>
                         <li><a href="#grants">Grants</a></li>
+                        <li><a href="#extracurricular">Extracurricular</a></li>
                         <li><a href="http://jpoles1.github.io/blog/" target="_blank">My Blog</a></li>
                     </ul>
                 </nav>
@@ -123,24 +123,6 @@
                 </div>
             </script>
             <div id="work" class="dark noisy" style="text-align: center;"></div>
-            <script id="research-template" type="text/x-handlebars-template">
-                <br>
-                <h1>{{SectionTitle}}</h1>
-                <br>
-                <div id="{{SectionID}}Container" style="width: 90%; margin: auto; padding: 25px;">
-                    {{#each entries}}
-                    <div>
-                        <a href="{{ProjectURL}}" target="_blank">
-                            <div class="well projimg" style="text-align: center; position: relative;padding: 0px; overflow: hidden; width: 250px; height: 250px; margin: auto; background-image: url({{Image}}); background-size: contain;">
-                                <div class="projoverlay" style="padding: 15px; padding-bottom: 20px; position: absolute; bottom: 0; width: 100%; background-color: rgba(0,0,0,.8); color: #FFF; display: none;">
-                                    {{ProjectName}}
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    {{/each}}
-                </div>
-            </script>
             <div id="research" class="dark noisy" style="text-align: center;">
                 <br>
                 <h1>Research Experience</h1>
@@ -243,7 +225,7 @@
                 <br>
                 <br>
             </div>
-            <div id="extracurricular" class="light noisy" style="text-align: center;"></div>
+            <div id="extracurricular" class="dark noisy" style="text-align: center;"></div>
             <div id="footer" class="noisy dark">
                 Created by Jordan Poles with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>, <a href="https://jquery.com/" target="_blank">JQuery</a>, <a href="http://leanmodal.finelysliced.com.au/" target="_blank">leanModal</a> and <a href="http://kenwheeler.github.io/slick/" target="_blank">slick</a>.
                 <br>
