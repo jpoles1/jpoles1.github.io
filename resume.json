@@ -197,6 +197,11 @@
     "Theme": "well",
     "entries": [
       {
+        "ProjectName": "NYU SOM ECG Trainer:<br>An online tool for self-teaching and mastering ECG interpretation.",
+        "ProjectURL": "https://education.med.nyu.edu/ecg/auth",
+        "Image": "img/ALoE.png"
+      },
+      {
         "ProjectName": "Houston Interactive Parking Ticket Map",
         "ProjectURL": "http://jpoles1.github.io/HOUTix/",
         "Image": "img/ticket_map.png"
