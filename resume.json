@@ -5,6 +5,11 @@
     "Theme": "well",
     "entries": [
       {
+        "ProjectName": "Dorm Automation Kit (DAK):<br>A DIY room automation board for <$10!<br>Best Hardware at HackRice6.",
+        "ProjectURL": "https://devpost.com/software/dorm-automation-kit-dak",
+        "Image": "img/dak.png"
+      },
+      {
         "ProjectName": "NYU SOM ECG Trainer:<br>An online tool for self-teaching and mastering ECG interpretation.",
         "ProjectURL": "https://education.med.nyu.edu/ecg/auth",
         "Image": "img/ALoE.png"
