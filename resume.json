@@ -231,26 +231,53 @@
       }
     ]
   },
-  "presentations": {
-    "SectionTitle": "Presentations",
-    "SectionID": "presentations",
+  "abstracts": {
+    "SectionTitle": "Abstracts & Presentations",
+    "SectionID": "abstracts",
     "Theme": "darkwell",
     "entries": [
       {
+        "Title": "Deliberate Practice of ECG Interpretation by Emergency Medicine Selective Students",
+        "What": "Oral Presentation",
+        "Where": "Northeastern Group on Education Affairs Annual Meeting",
+        "When": "2017"
+      },
+      {
+        "Title": "Deliberate Practice of ECG Interpretation by Emergency Medicine Selective Students",
+        "What": "Poster",
+        "Where": "Society for Academic Emergency Medicine Annual Conference",
+        "When": "2017"
+      },
+      {
         "Title": "Role of retinoic acid in diet induced obesity",
+        "What": "Poster",
         "Where": "IMMUNOLOGY 2016",
-        "Date": "May 2016",
+        "When": "May 2016",
         "URL": "http://www.jimmunol.org/content/196/1_Supplement/124.53.short"
       },
       {
-        "Title": "Metabolic Alterations to the Mucosal Microbiota of Inflammatory Bowel Disease Patients are Associated with Cd4+ T Cell Homeostasis",
-        "Where": "???",
-        "Date": "???"
+        "Title": "The Characteristics of Chronic Viral Disease in a Houston FQHC Asian Patient Population",
+        "What": "Poster",
+        "Where": "AAPI Health Summit",
+        "When": "2015"
       },
       {
-        "Title": "Induction of Gastrointestinal Anti-HIV Immune Response via DEC-205 Targeted Intranasal Vaccination",
-        "Where": "DDW 2013",
-        "Date": "??? 2013"
+        "Title": "Metabolic Alterations To The Mucosal Microbiota Of Inflammatory Bowel Disease Patients Are Associated With CD4+ T Cell Homeostasis",
+        "What": "Poster",
+        "Where": "Advances in IBD",
+        "When": "2013"
+      },
+      {
+        "Title": "Induction of a Gut-Tropic, Anti-HIV Immune Response via DEC-205 Targeted Intranasal Vaccination",
+        "What": "Oral Presentation",
+        "Where": "Digestive Disease Week",
+        "When": "2013"
+      },
+      {
+        "Title": "Lung dendritic cells induce migration of protective T cells to the gastrointestinal tract",
+        "What": "Poster",
+        "Where": "Conference on Retroviruses and Opportunistic Infections",
+        "When": "2013"
       }
     ]
   },

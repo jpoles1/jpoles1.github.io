@@ -12,6 +12,9 @@ var importResume = function(obj, cb){
     var jobtemplate = Handlebars.compile($("#job-template").html());
     $("#extracurricular").html(jobtemplate(obj.extracurricular));
     $("#work").html(jobtemplate(obj.work));
+    //Import Abstracts
+    var abstractstemplate = Handlebars.compile($("#abstracts-template").html());
+    $("#abstracts").html(abstractstemplate(obj.abstracts));
     //Import Publications
     var publicationstemplate = Handlebars.compile($("#publications-template").html());
     $("#publications").html(publicationstemplate(obj.publications));
@@ -47,7 +50,7 @@ var initPlugins = function(obj){
         $.trigger("projectClick");
     });
     //Slick Carosel
-    $("#publicationsContainer").slick({
+    var proj_opts = {
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -83,7 +86,11 @@ var initPlugins = function(obj){
                 }
             }
         ]
-    });
+    }
+    $("#publicationsContainer").slick(proj_opts);
+    proj_opts.prevArrow = "<a type='button' class='slickarrow glyphicon glyphicon-chevron-left' style='color: #333; position: absolute; height: 100%; left:-60px; font-size: 35px; line-height: 350px;'></a>",
+    proj_opts.nextArrow =  "<a type='button' class='slickarrow glyphicon glyphicon-chevron-right' style='color: #333; position: absolute; height: 100%; right:-60px; font-size: 35px; line-height: 350px; padding-right: 25px; padding-left: 25px;'></a>",
+    $("#abstractsContainer").slick(proj_opts);
     $("#projectsContainer").slick({
         infinite: false,
         slidesToShow: 3,

@@ -49,7 +49,7 @@
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="#work">Work</a></li>
                         <li><a href="#research">Research</a></li>
-                        <li><a href="#abstracts">Presentations</a></li>
+                        <li><a href="#abstracts">Abstracts</a></li>
                         <li><a href="#publications">Publications</a></li>
                         <li><a href="#grants">Grants</a></li>
                         <li><a href="#extracurricular">Extracurricular</a></li>
@@ -147,35 +147,25 @@
                     </tr>
                 </table>
             </div>
-            <div id="abstracts" class="light noisy" style="text-align: center;">
+            <script id="abstracts-template" type="text/x-handlebars-template">
                 <br>
-                <h1>Abstracts & Presentations</h1>
+                <h1>{{SectionTitle}}</h1>
                 <br>
-                <table id="abstractcontainer">
-                    <tr>
-                        <td class="col-md-3 col-sm-6 well" id="AAPI">
-                            <h3>The Characteristics of Chronic Viral Disease in a Houston FQHC Asian Patient Population</h3>
-                            <h4><a href="assets/hopePoster.pdf" target="_blank">Poster</a> - Nov 2015</h4>
-                            <h4>Asian American Pacific Islander Health Summit</h4>
-                        </td>
-                        <td class="col-md-3 col-sm-6 well">
-                            <h3>Metabolic Alterations To The Mucosal Microbiota Of Inflammatory Bowel Disease Patients Are Associated With CD4+ T Cell Homeostasis</h3>
-                            <h4>Poster - 2013</h4>
-                            <h4>Advances in IBD</h4>
-                        </td>
-                        <td class="col-md-3 col-sm-6 well">
-                            <h3>Induction of a Gut-Tropic, Anti-HIV Immune Response via DEC-205 Targeted Intranasal Vaccination</h3>
-                            <h4>Oral Presentation - 2013</h4>
-                            <h4>Digestive Disease Week</h4>
-                        </td>
-                        <td class="col-md-3 col-sm-6 well">
-                            <h3>Lung dendritic cells induce migration of protective T cells to the gastrointestinal tract</h3>
-                            <h4>Poster - 2013</h4>
-                            <h4>Conference on Retroviruses and Opportunistic Infections</h4>
-                        </td>
-                    </tr>
-                </table>
-            </div>
+                <div id="{{SectionID}}Container" style="width: 90%; margin: auto; padding: 25px;">
+                    {{#each entries}}
+                    <div style="display: inline;">
+                      <div class="well" style="text-align: center; position: relative; display:flex; flex-direction:column; justify-content:center; padding: 15px; overflow: hidden; width: 350px; height: 300px; margin: auto;">
+                          <div>
+                            <h3>{{Title}}</h3>
+                            <h4>{{What}} - {{When}}</h4>
+                            <h4>{{Where}}</h4>
+                          </div>
+                      </div>
+                    </div>
+                    {{/each}}
+                </div>
+            </script>
+            <div id="abstracts" class="light noisy" style="text-align: center;"></div>
             <script id="publications-template" type="text/x-handlebars-template">
                 <br>
                 <h1>{{SectionTitle}}</h1>

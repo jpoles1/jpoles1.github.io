@@ -244,10 +244,10 @@ hr{
     border: none;
     font-weight: normal;
 }
-#abstractcontainer h3{
+#abstractsContainer h3{
     font-size: 24px;
 }
-#abstractcontainer h4{
+#abstractsContainer h4{
     font-size: 20px;
 }
 /* Projects Section */
