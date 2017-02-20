@@ -175,7 +175,7 @@
     ]
   },
   "grants":{
-    "Section Title": "Grants",
+    "SectionTitle": "Grants",
     "SectionID": "grants",
     "Theme": "well",
     "entries": [
