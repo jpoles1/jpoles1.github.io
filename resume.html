@@ -4,11 +4,19 @@
     <script src="js/handlebars.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
+      .printspacer{
+        display: none;
+      }
       @page {
         size: 8.5in 11in;
         margin: 1in;
         @bottom-right {
           content: counter(page);
+        }
+      }
+      @media print {
+        .printspacer{
+          display: block !important;
         }
       }
       a:after {
@@ -26,7 +34,6 @@
         font-size: 20pt;
       }
       h1, h2, h3, h4, h5 {
-        page-break-before: avoid;
         page-break-after: avoid;
       }
       table{
@@ -99,6 +106,7 @@
             </table>
           </div>
           <div id="education" class="section"></div>
+          <div class="printspacer"><br><br><br></div>
           <div id="publications" class="section"></div>
           <div id="abstracts" class="section"></div>
           <div id="grants" class="section"></div>
