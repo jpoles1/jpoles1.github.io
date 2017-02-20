@@ -145,9 +145,9 @@
         "Image": "img/freelance.png",
         "resumeDisplay": 1,
         "Description": [
-          "I have applied my skills in many different fields: from research and data visualization, to personal projects and business.",
           "In High School, co-founded a successful web development company.",
-          "I have worked for clients in Texas, across the Northeast, and as far as India. They include an online ticket vendor, awning distributor, NYC fashion boutique, and artisanal bakery"
+          "I have applied my skills in many different fields: from research and data visualization, to personal projects and business.",
+          "Worked for clients in Texas, across the Northeast, and as far as India. They include an online ticket vendor, awning distributor, NYC fashion boutique, and artisanal bakery"
         ]
       },
       {
@@ -203,6 +203,7 @@
     "entries": [
       {
         "Title": "Inferred metagenomic comparison of mucosal and fecal microbiota from individuals undergoing routine screening colonoscopy reveals similar differences observed during active inflammation",
+        "Authors": "Tang, Mei San, <b>Jordan Poles</b>, Jacqueline M Leung, et al. 2015.",
         "Publication": "Gut Microbes",
         "Date": "Jan. 2015",
         "Image": "img/gutmicrobes.png",
@@ -210,6 +211,7 @@
       },
       {
         "Title": "Induction of Intestinal Immunity by Mucosal Vaccines As a Means of Controlling HIV Infection",
+        "Authors": "<b>Poles, Jordan</b>, Yelina Alvarez, and Catarina E Hioe. 2014.",
         "Publication": "AIDS Research and Human Retroviruses",
         "Date": "Nov. 2014",
         "Image": "img/aidsresearch.png",
@@ -217,6 +219,7 @@
       },
       {
         "Title": "Metabolic Alterations to the Mucosal Microbiota in Inflammatory Bowel Disease",
+        "Authors": "Davenport, Michael, <b>Jordan Poles</b>, Jacqueline M Leung, et al. 2014.",
         "Publication": "Inflammatory Bowel Diseases",
         "Date": "Apr. 2014",
         "Image": "img/ibd.png",
@@ -224,6 +227,7 @@
       },
       {
         "Title": "Lung dendritic cells induce migration of protective T cells to the gastrointestinal tract",
+        "Authors": "Ruane, Darren, Lucas Brane, Bernardo Sgarbi Reis, Cheolho Cheong, <b>Jordan Poles</b>, et al. 2013.",
         "Publication": "Journal of Experimental Medicine",
         "Date": "Aug. 2013",
         "Image": "img/jem.png",
@@ -240,44 +244,51 @@
         "Title": "Deliberate Practice of ECG Interpretation by Emergency Medicine Selective Students",
         "What": "Oral Presentation",
         "Where": "Northeastern Group on Education Affairs Annual Meeting",
-        "When": "2017"
+        "When": "2017",
+        "Authors": "Hilary Fairbrother, Christina Tempesta, Jordan Poles, Rose Hatala, Marc Triola, Martin Pusic"
       },
       {
         "Title": "Deliberate Practice of ECG Interpretation by Emergency Medicine Selective Students",
         "What": "Poster",
         "Where": "Society for Academic Emergency Medicine Annual Conference",
-        "When": "2017"
+        "When": "2017",
+        "Authors": "Hilary Fairbrother, Christina Tempesta, Jordan Poles, Rose Hatala, Marc Triola, Martin Pusic"
       },
       {
         "Title": "Role of retinoic acid in diet induced obesity",
         "What": "Poster",
         "Where": "IMMUNOLOGY 2016",
         "When": "May 2016",
-        "URL": "http://www.jimmunol.org/content/196/1_Supplement/124.53.short"
+        "URL": "http://www.jimmunol.org/content/196/1_Supplement/124.53.short",
+        "Authors": "Uma Mahesh Gundra, Jordan Poles, Png Loke"
       },
       {
         "Title": "The Characteristics of Chronic Viral Disease in a Houston FQHC Asian Patient Population",
         "What": "Poster",
         "Where": "AAPI Health Summit",
-        "When": "2015"
+        "When": "2015",
+        "Authors": "Jordan Poles, Richard Andrews"
       },
       {
         "Title": "Metabolic Alterations To The Mucosal Microbiota Of Inflammatory Bowel Disease Patients Are Associated With CD4+ T Cell Homeostasis",
         "What": "Poster",
         "Where": "Advances in IBD",
-        "When": "2013"
+        "When": "2013",
+        "Authors": "Davenport, Michael*, Poles, Jordan*, Jacqueline Leung, Martin Wolff, Wasif Abidi, Thomas Ullman, Lloyd Mayer, Ilseung Cho, and P'ng Loke."
       },
       {
         "Title": "Induction of a Gut-Tropic, Anti-HIV Immune Response via DEC-205 Targeted Intranasal Vaccination",
         "What": "Oral Presentation",
         "Where": "Digestive Disease Week",
-        "When": "2013"
+        "When": "2013",
+        "Authors": "Uma Mahesh Gundra, Jordan Poles, Png Loke"
       },
       {
         "Title": "Lung dendritic cells induce migration of protective T cells to the gastrointestinal tract",
         "What": "Poster",
         "Where": "Conference on Retroviruses and Opportunistic Infections",
-        "When": "2013"
+        "When": "2013",
+        "Authors": "Uma Mahesh Gundra, Jordan Poles, Png Loke"
       }
     ]
   },
@@ -288,6 +299,7 @@
     "entries": [
       {
         "PositionTitle": "Wiess Webmaster",
+        "resumeDisplay": 1,
         "Organization": "Wiess College",
         "Duration": "April 2014 - Present",
         "Location": "Houston, TX",
@@ -300,6 +312,7 @@
       },
       {
         "PositionTitle": "Wiess Associates Committee Chair",
+        "resumeDisplay": 1,
         "Organization": "Wiess College",
         "Duration": "February 2014 - Present",
         "Location": "Houston, TX",
@@ -313,6 +326,7 @@
       },
       {
         "PositionTitle": "Wiess Associate Justice",
+        "resumeDisplay": 1,
         "Organization": "Wiess College",
         "Duration": "February 2014 - February 2016",
         "Location": "Houston, TX",
@@ -325,6 +339,7 @@
       },
       {
         "PositionTitle": "Director of Research/Patient Discharge Planner/Shift Leader",
+        "resumeDisplay": 1,
         "Organization": "Ben Taub Hospital<br>Patient Discharge Initiative (PDI)",
         "Duration": "April 2014 - December 2015",
         "Location": "Houston, TX",
@@ -347,6 +362,7 @@
       },
       {
         "PositionTitle": "Patient Discharge Volunteer",
+        "resumeDisplay": 1,
         "Organization": "Ben Taub Hospital<br>Patient Discharge Initiative (PDI)",
         "Duration": "September 2013 - April 2014",
         "Location": "Houston, TX",
@@ -359,6 +375,7 @@
       },
       {
         "PositionTitle": "Aider & First Responder",
+        "resumeDisplay": 1,
         "Organization": "Chappaqua Volunteer Ambulance Core",
         "Duration": "September 2013 - April 2014",
         "Location": "Chappaqua, TX",
@@ -383,6 +400,7 @@
       },
       {
         "PositionTitle": "Filipino Martial Arts Educator",
+        "resumeDisplay": 1,
         "Organization": "Kapatid Martial Arts",
         "Duration": "2009 - 2012",
         "Location": "Mt. Kisco, NY",

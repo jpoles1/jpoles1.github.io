@@ -1,0 +1,16 @@
+<h2>{{SectionTitle}}</h2>
+<table>
+  {{#each entries}}
+      <tr>
+        <td style="text-align: left; font-size: 13.5px; padding-left: 20px;">
+          <div class="avoid">
+            <b>{{Title}}</b><br>
+            <span style="font-size: 12px;">{{Authors}}</span>
+          </div>
+        </td>
+        <td>
+          {{What}} - {{Where}} {{When}}
+        </td>
+      </tr>
+  {{/each}}
+</table>
