@@ -118,24 +118,24 @@
   </body>
   <script>
     $(function(){
-      $.get("resume.json", function(data){
-        $.ajax({url: "resume_templates/education.hbs", cache: 0}).done(function(education_template_string){
+      $.get("cv.json", function(data){
+        $.ajax({url: "cv_templates/education.hbs", cache: 0}).done(function(education_template_string){
           var education_template = Handlebars.compile(education_template_string);
           $("#education").html(education_template())
         })
-        $.ajax({url: "resume_templates/publications.hbs", cache: 0}).done(function(publications_template_string){
+        $.ajax({url: "cv_templates/publications.hbs", cache: 0}).done(function(publications_template_string){
           var publications_template = Handlebars.compile(publications_template_string);
           $("#"+data.publications.SectionID).html(publications_template(data.publications))
         })
-        $.ajax({url: "resume_templates/abstracts.hbs", cache: 0}).done(function(abstracts_template_string){
+        $.ajax({url: "cv_templates/abstracts.hbs", cache: 0}).done(function(abstracts_template_string){
           var abstracts_template = Handlebars.compile(abstracts_template_string);
           $("#"+data.abstracts.SectionID).html(abstracts_template(data.abstracts))
         })
-        $.ajax({url: "resume_templates/grants.hbs", cache: 0}).done(function(grants_template_string){
+        $.ajax({url: "cv_templates/grants.hbs", cache: 0}).done(function(grants_template_string){
           var grants_template = Handlebars.compile(grants_template_string);
           $("#"+data.grants.SectionID).html(grants_template(data.grants))
         })
-        $.ajax({url: "resume_templates/work.hbs", cache: 0}).done(function(work_template_string){
+        $.ajax({url: "cv_templates/work.hbs", cache: 0}).done(function(work_template_string){
           var work_template = Handlebars.compile(work_template_string);
           $("#"+data.work.SectionID).html(work_template(data.work))
           $("#"+data.extracurricular.SectionID).html(work_template(data.extracurricular))
