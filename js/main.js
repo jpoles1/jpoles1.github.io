@@ -4,7 +4,7 @@ $.fn.animateHighlight = function() {
     var current = this.css( 'background-color' );
     this.animate({backgroundColor: "#FFFFCC"}).animate({backgroundColor: current});
 };
-var importResume = function(obj, cb){
+var importCV = function(obj, cb){
     //Import Projects
     var projecttemplate = Handlebars.compile($("#project-template").html());
     $("#projects").html(projecttemplate(obj.projects));
@@ -140,7 +140,7 @@ var initPlugins = function(obj){
     $(".tooltippable").tooltip();
 };
 $(function(){
-    resumedata = $.getJSON("resume.json", function(obj){
-        importResume(obj, initPlugins);
+    cvdata = $.getJSON("cv.json", function(obj){
+        importCV(obj, initPlugins);
     });
 });
