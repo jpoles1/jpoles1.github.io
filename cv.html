@@ -3,7 +3,7 @@
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/handlebars.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>CV - Jordan Poles</title>
+    <title>Curriculum Vitae - Jordan Poles</title>
     <style>
       .printspacer{
         display: none;
@@ -19,9 +19,19 @@
         .printspacer{
           display: block !important;
         }
+        a{
+          color: #333 !important;
+        }
+      }
+      a{
+        color: #555;
+      }
+      a:hover{
+        color: #333
       }
       a:after {
         display: none;
+        color: #333;
       }
       #container{
         width: 8.5in;
@@ -53,7 +63,7 @@
         text-align: left;
       }
       li{
-        margin-bottom: 8px;
+        margin-bottom: 6px;
       }
       .avoid{
         page-break-inside: avoid;
@@ -107,8 +117,8 @@
             </table>
           </div>
           <div id="education" class="section"></div>
-          <div class="printspacer"><br><br><br></div>
           <div id="publications" class="section"></div>
+          <div class="printspacer"><br><br><br></div>
           <div id="abstracts" class="section"></div>
           <div id="grants" class="section"></div>
           <div id="work" class="section"></div>
