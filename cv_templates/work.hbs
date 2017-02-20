@@ -3,18 +3,18 @@
   {{#each entries}}
     {{#if resumeDisplay}}
       <tr>
-        <td style="padding: 20px 25px 20px 25px; line-height: 140%">
+        <td style="padding: 20px 15px 20px 15px; line-height: 140%">
           <div class="avoid">
             <b>{{{Organization}}}</b><br>
             {{Location}}<br>
             <i>{{Duration}}</i>
           </div>
         </td>
-        <td>
+        <td style="padding: 15px 10px 15px 10px;">
           <div class="avoid">
             <b>{{PositionTitle}}</b>
-            <hr>
-            <ul>
+            <hr style="margin: 15px;">
+            <ul style="padding-left: 25px;">
             {{#each Description}}
               <li>
                 {{{this}}}
