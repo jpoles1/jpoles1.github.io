@@ -3,22 +3,26 @@
   {{#each entries}}
     {{#if resumeDisplay}}
       <tr>
-        <td>
+        <td style="padding: 20px 25px 20px 25px;">
           <div class="avoid">
             <b>{{{Organization}}}</b><br>
             {{Location}}<br>
             <i>{{Duration}}</i>
           </div>
         </td>
-        <td><ul>
+        <td>
           <div class="avoid">
+            <b>{{PositionTitle}}</b>
+            <hr>
+            <ul>
             {{#each Description}}
               <li>
                 {{{this}}}
               </li>
             {{/each}}
-          </div>
-        </ul></td>
+
+          </ul></div>
+        </td>
       </tr>
     {{/if}}
   {{/each}}
