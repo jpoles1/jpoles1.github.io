@@ -158,12 +158,14 @@
                 <div id="{{SectionID}}Container" style="width: 90%; margin: auto; padding: 25px;">
                     {{#each entries}}
                     <div style="display: inline;">
-                      <div class="well" style="text-align: center; position: relative; display:flex; flex-direction:column; justify-content:center; padding: 15px; overflow: hidden; width: 350px; height: 300px; margin: auto;">
-                          <div>
-                            <h3>{{Title}}</h3>
-                            <h4>{{What}} - {{When}}</h4>
-                            <h4>{{Where}}</h4>
-                          </div>
+                      <div style="padding: 0 5px 0 5px;">
+                        <div class="well" style="text-align: center; position: relative; display:flex; flex-direction:column; justify-content:center; padding: 15px; overflow: hidden; width: 340px; height: 300px; margin: auto;">
+                            <div>
+                              <h3>{{Title}}</h3>
+                              <h4>{{What}} - {{When}}</h4>
+                              <h4>{{Where}}</h4>
+                            </div>
+                        </div>
                       </div>
                     </div>
                     {{/each}}
@@ -178,7 +180,8 @@
                     {{#each entries}}
                     <div style="display: inline;">
                         <a href="{{URL}}" target="_blank">
-                            <div class="well projimg" style="text-align: center; position: relative;padding: 0px; overflow: hidden; width: 350px; height: 350px; margin: auto; background-image: url({{Image}}); background-size: contain;">
+                          <div style="padding: 0 5px 0 5px;">
+                            <div class="well projimg" style="text-align: center; position: relative;padding: 0px; overflow: hidden; width: 340px; height: 350px; margin: auto; background-image: url({{Image}}); background-size: contain;">
                                 <div class="projoverlay" style="font-size: 18px; padding: 15px; padding-bottom: 20px; position: absolute; bottom: 0; width: 100%; background-color: rgba(0,0,0,.8); color: #FFF; display: none;">
                                     {{Title}}
                                     <hr>
@@ -187,6 +190,7 @@
                                     {{Date}}
                                 </div>
                             </div>
+                          </div>
                         </a>
                     </div>
                     {{/each}}
