@@ -62,16 +62,18 @@
             <div id="greeter" class="dark noisy" style="text-align: center;">
                 <br><br>
                 <div class="shadow">
-                  <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAp4AAAAJGJlMzQxNDBhLTZhZTEtNGJlNS04MTEzLTA2Nzk2MzgyYmYxNw.jpg" class="img" style="" width=300>
+                  <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAp4AAAAJGJlMzQxNDBhLTZhZTEtNGJlNS04MTEzLTA2Nzk2MzgyYmYxNw.jpg" class="img" style="" width=250>
                 </div>
                 <br>
                 <h1 style="display: none;">HELLO<span style="font-size: 25pt; display: block;">my name is:</span></h1><div class="jordanpoles">Jordan Poles</div>
                 <h2 style="max-width: 1400px; margin: auto; border-right: 1px solid #bbb; border-left: 2px solid #bbb; padding: 0 20px 0 20px; margin-top: 10px">
+                  NYU School of Medicine 3-Year MD Student; Future <a href="https://med.nyu.edu/medicine/education/residency-programs">Internal Medicine</a> Resident
+                  <br><br>
                   Rice University <a href="https://biosciences.rice.edu/" target="_blank">Biological Sciences</a> Major; <a href="https://statistics.rice.edu/" target="_blank">Statistics</a> and <a href="http://pjhc.rice.edu/" target="_blank">Poverty Justice and Human Capabilities</a> Minor.
                   <br><br>
                   I am an innovator, <a href="https://github.com/jpoles1" target="_blank">programmer</a> and <a href="https://hackaday.io/jpoles1" target="_blank">DIYer</a> with a passion for medicine and data.
                   <br><br>
-                  <i>I seek to build a fulfilling career by tackling some of the innumerable problems present in modern healthcare through a combination of compassionate clinical work, and data-driven research.</i>
+                  <i style="display: none">I seek to build a fulfilling career by tackling some of the innumerable problems present in modern healthcare through a combination of compassionate clinical work, and data-driven research.</i>
                 </h2>
             </div>
             <script id="project-template" type="text/x-handlebars-template">
@@ -82,8 +84,8 @@
                     {{#each entries}}
                     <div>
                         <a href="{{ProjectURL}}" target="_blank" class="projectlink">
-                            <div class="well projimg" style="text-align: center; position: relative;padding: 0px; overflow: hidden; margin: auto; background-image: url({{Image}}); background-size: contain;">
-                                <div class="projoverlay" style="padding: 15px; padding-bottom: 20px; position: absolute; bottom: 0; width: 100%; background-color: rgba(0,0,0,.9); color: #FFCC33; display: none;">
+                            <div class="well projimg" style="background-image: url({{Image}}); background-size: contain;">
+                                <div class="projoverlay" style="">
                                     {{{ProjectName}}}
                                 </div>
                             </div>

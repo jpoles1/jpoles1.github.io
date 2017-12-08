@@ -228,7 +228,23 @@ hr{
     display: none;
 }
 .projimg{
-    width: 350px; height: 350px;
+    width: 325px; height: 325px;
+    text-align: center;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    margin: auto;
+}
+.projoverlay{
+  font-size: 20px;
+  padding: 15px;
+  padding-bottom: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,.9);
+  color: #FFCC33;
+  display: none;
 }
 @media (min-width: 1000px) {
     .horizcells {
