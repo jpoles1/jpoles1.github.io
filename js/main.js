@@ -103,14 +103,14 @@ var initPlugins = function(obj){
         nextArrow: "<a type='button' class='slickarrow glyphicon glyphicon-chevron-right' style='position: absolute; height: 100%; right:-40px; font-size: 35px; line-height: 400px; padding-right: 25px;'></a>",
         responsive: [
             {
-                breakpoint: 1400,
+                breakpoint: 1200,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1
                 }
             },
             {
-                breakpoint: 1024,
+                breakpoint: 900,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1
