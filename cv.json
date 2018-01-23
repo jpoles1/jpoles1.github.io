@@ -25,6 +25,11 @@
         "Image": "img/ALoE.png"
       },
       {
+        "ProjectName": "VR Colon Viewer<br>Experimenting in the Browser",
+        "ProjectURL": "https://coloview.glitch.me/",
+        "Image": "img/coloview.png"
+      },
+      {
         "ProjectName": "Houston Interactive Parking Ticket Map",
         "ProjectURL": "http://jpoles1.github.io/HOUTix/",
         "Image": "img/ticket_map.png"
