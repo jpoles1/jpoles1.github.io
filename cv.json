@@ -155,7 +155,7 @@
       {
         "PositionTitle": "Freelance Web Designer & Developer",
         "Organization": "Distilled Design",
-        "Duration": "2009 - Present",
+        "Duration": "2009 - 2015",
         "Location": "Chappaqua, NY",
         "Image": "img/freelance.png",
         "resumeDisplay": 1,
@@ -354,6 +354,17 @@
         ]
       },
       {
+        "PositionTitle": "CME Course Facilitator",
+        "Organization": "NYU SOM",
+        "Duration": "April 19, 2018",
+        "Location": "New York City",
+        "Image": "img/nyusom.png",
+        "resumeDisplay": 1,
+        "Description": [
+          "Ran an \"Introduction to VR in Medical Education\" CME course for NYU physicians."
+        ]
+      },
+      {
         "PositionTitle": "Virtual Reality Interest Group Leader",
         "resumeDisplay": 1,
         "Organization": "NYU SOM",
@@ -480,7 +491,7 @@
       },
       {
         "PositionTitle": "Filipino Martial Arts Educator",
-        "resumeDisplay": 1,
+        "resumeDisplay": 0,
         "Organization": "Kapatid Martial Arts",
         "Duration": "2009 - 2012",
         "Location": "Mt. Kisco, NY",
