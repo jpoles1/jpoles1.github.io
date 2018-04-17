@@ -30,6 +30,11 @@
         "Image": "img/coloview.png"
       },
       {
+        "ProjectName": "In The News: Houston Interactive Parking Ticket Map",
+        "ProjectURL": "http://abc13.com/traffic/study-reveals-where-youll-get-a-parking-ticket-in-houston/1352757/",
+        "Image": "img/abc13.png"
+      },
+      {
         "ProjectName": "Houston Interactive Parking Ticket Map",
         "ProjectURL": "http://jpoles1.github.io/HOUTix/",
         "Image": "img/ticket_map.png"
