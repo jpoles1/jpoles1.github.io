@@ -201,6 +201,11 @@
     "Theme": "well",
     "entries": [
       {
+        "Title": "Project Caseen: Developing Software for Clinical Reasoning Education",
+        "Duration": "May 2018 - August 2018",
+        "Name": "NYU Internal Medicine Summer Fellowship"
+      },
+      {
         "Title": "HOPE Clinic: Medical Scribing & Tackling The Electronic Medical Record",
         "Duration": "June 2015 - August 2015",
         "Name": "Susan McAshan Summer Service Internship"
@@ -289,6 +294,13 @@
         "Authors": "Jian-Da Lin, Hitoo Nishi, Jordan Poles, Caroline Mccauley, Karishma Rahman, Ashly Hine, Nikollaq Vozhilla, Edward A. Fisher, P’ng Loke"
       },
       {
+        "Title": "Deliberate Practice of ECG Interpretation by Emergency Medicine Selective Students",
+        "What": "Oral Presentation",
+        "Where": "NYU Emergency Medicine Education Day",
+        "When": "2018",
+        "Authors": "Hilary Fairbrother, Christina Tempesta, Jordan Poles, Rose Hatala, Marc Triola, Martin Pusic"
+      },
+      {
         "Title": "Single-cell RNA sequencing reveals heterogeneity of plaque macrophages in atherosclerosis progression and regression",
         "What": "Poster",
         "Where": "Immunology Annual Conference",
@@ -356,7 +368,7 @@
         "PositionTitle": "Data and Coding in Medicine Educator",
         "resumeDisplay": 1,
         "Organization": "NYU SOM",
-        "Duration": "April 2018 - Present",
+        "Duration": "April 2018 - December 2018",
         "Location": "New York, NY",
         "Image": "img/nyusom.png",
         "Description": [
@@ -368,19 +380,19 @@
       {
         "PositionTitle": "CME Course Facilitator",
         "Organization": "NYU SOM",
-        "Duration": "April 19, 2018",
+        "Duration": "April 2018 - December 2018",
         "Location": "New York City",
         "Image": "img/nyusom.png",
         "resumeDisplay": 1,
         "Description": [
-          "Ran an \"Introduction to VR in Medical Education\" CME course for NYU physicians."
+          "Ran \"Introduction to VR in Medical Education\" CME courses for NYU physicians."
         ]
       },
       {
         "PositionTitle": "Virtual Reality Interest Group Leader",
         "resumeDisplay": 1,
         "Organization": "NYU SOM",
-        "Duration": "January 2018 - Present",
+        "Duration": "January 2018 - December 2018",
         "Location": "New York, NY",
         "Image": "img/nyusom.png",
         "Description": [
@@ -392,7 +404,7 @@
         "PositionTitle": "Food and Wine Society President",
         "resumeDisplay": 1,
         "Organization": "NYU SOM",
-        "Duration": "January 2018 - Present",
+        "Duration": "January 2018 - December 2018",
         "Location": "New York, NY",
         "Image": "img/nyusom.png",
         "Description": [
@@ -404,11 +416,11 @@
         "PositionTitle": "Hepatitis Project Volunteer",
         "resumeDisplay": 1,
         "Organization": "NYU SOM",
-        "Duration": "September 2017  - Present",
+        "Duration": "September 2017  - May 2017",
         "Location": "New York, NY",
         "Image": "img/nyusom.png",
         "Description": [
-          "Worked at Streetworks, an organization which serves homeless youth, to provide Hepatitis vaccinations to those in need."
+          "Worked at Streetworks, an organization which serves homeless youth, to provide Hepatitis vaccinations."
         ]
       },
       {
@@ -432,23 +444,21 @@
         "Location": "Houston, TX",
         "Image": "img/wiess.png",
         "Description": [
-          "Chosen for leadership because of strong involvement with college associates.",
-          "Coordinated the activities of a committee of other students responsible for organizing events.",
+          "Coordinated the activities of a committee of students responsible for organizing events.",
           "Worked alongside associates to coordinate college events and activities to help unify the community.",
           "Organized the biannual Associates Night banquet dinner"
         ]
       },
       {
         "PositionTitle": "Wiess Associate Justice",
-        "resumeDisplay": 1,
+        "resumeDisplay": 0,
         "Organization": "Wiess College",
         "Duration": "February 2014 - February 2016",
         "Location": "Houston, TX",
         "Image": "img/wiess.png",
         "Description": [
           "Worked alongside a court of seven other justices to adjudicate, resolve inter-student disputes, infractions and other Wiess cases.",
-          "Worked with the court to improve the safety of the on-campus drinking culture.",
-          "Elected by the Wiess student body."
+          "Worked with the court to improve the safety of the on-campus drinking culture."
         ]
       },
       {
@@ -465,6 +475,7 @@
       },
       {
         "PositionTitle": "Alternative Spring Break Volunteer",
+        "resumeDisplay": 0,
         "Organization": "Rice Alternative Spring Break",
         "Duration": "Spring 2014",
         "Location": "McAllen, TX",
@@ -482,7 +493,6 @@
         "Location": "Houston, TX",
         "Image": "img/bentaub.gif",
         "Description": [
-          "Chosen through competitive application process.",
           "Discharged patients from the ER, and discussed follow-up appointments, medications and available social services.",
           "Followed up with patients following discharge to answer questions, promote medication adherence, and encourage follow-up appointment attendance"
         ]
@@ -502,6 +512,7 @@
       },
       {
         "PositionTitle": "Urban Immersion Volunteer",
+        "resumeDisplay": 0,
         "Organization": "Rice University Urban Immersion",
         "Duration": "Summer 2013",
         "Location": "Houston, TX",
