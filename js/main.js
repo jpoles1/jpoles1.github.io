@@ -10,7 +10,11 @@ var importCV = function(obj, cb){
     $("#projects").html(projecttemplate(obj.projects));
     //Import work experience
     var jobtemplate = Handlebars.compile($("#job-template").html());
-    $("#extracurricular").html(jobtemplate(obj.extracurricular));
+    var filteredExtracurriculars = obj.extracurricular
+    filteredExtracurriculars.entries = filteredExtracurriculars.entries.filter(function(entry){
+        return entry.resumeDisplay
+    })
+    $("#extracurricular").html(jobtemplate(filteredExtracurriculars));
     $("#work").html(jobtemplate(obj.work));
     //Import Abstracts
     var abstractstemplate = Handlebars.compile($("#abstracts-template").html());
