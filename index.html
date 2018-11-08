@@ -129,30 +129,6 @@
                 </div>
             </script>
             <div id="work" class="dark noisy" style="text-align: center;"></div>
-            <div id="research" class="dark noisy" style="text-align: center; display: none;">
-                <br>
-                <h1>Research Experience</h1>
-                <br>
-                <table id="researchcontainer">
-                    <tr>
-                        <td class="col-md-4 col-xs-12 darkwell">
-                            <img class="img-circle img-responsive workimg" src="img/nyu.jpg">
-                            <h3>PI: Dr. P'ng Loke</h3>
-                            <h4>2013 - 2014</h4>
-                        </td>
-                        <td class="col-md-4 col-xs-12 darkwell">
-                            <img class="img-circle img-responsive workimg" src="img/sinai.png">
-                            <h3>PI: Dr. Saurabh Mehandru</h3>
-                            <h4>2012 - 2013</h4>
-                        </td>
-                        <td class="col-md-4 col-xs-12 darkwell">
-                            <img class="img-circle img-responsive workimg" src="img/rockefeller.jpg">
-                            <h3>PI: Dr. Saurabh Mehandru, and Nobel Laureate Dr. Ralph Steinman</h3>
-                            <h4>2010 - 2012</h4>
-                        </td>
-                    </tr>
-                </table>
-            </div>
             <script id="abstracts-template" type="text/x-handlebars-template">
                 <br>
                 <h1>{{SectionTitle}}</h1>
@@ -199,32 +175,27 @@
                 </div>
             </script>
             <div id="publications" class="dark noisy" style="text-align: center;"></div>
-            <div id="grants" class="light noisy" style="text-align: center;">
+            <script id="grants-template" type="text/x-handlebars-template">
                 <br>
-                <h1>Grants</h1>
+                <h1>{{SectionTitle}}</h1>
                 <br>
-                <table id="grantcontainer">
-                    <tr>
-                        <td class="col-md-4 col-md-12 well">
-                            <h3>HOPE Clinic: Medical Scribing & Tackling The Electronic Medical Record</h3>
-                            <h4>June 2015 - August 2015</h4>
-                            <h4>Susan McAshan Summer Service Internship</h4>
-                        </td>
-                        <td class="col-md-4 col-md-12 well">
-                            <h3>Metabolic Alterations to the Mucosal Microbiota in Inflammatory Bowel Disease</h3>
-                            <h4>June 2013 - September 2013</h4>
-                            <h4>AGA-Eli & Edythe Broad Student Research Fellowship</h4>
-                        </td>
-                        <td class="col-md-4 col-md-12 well">
-                            <h3>The Induction of a Cytotoxic and Neutralizing GI Mucosal Immune Response Against HIV Through Targeted Intranasal Vaccination</h3>
-                            <h4>June 2012 - September 2012</h4>
-                            <h4>AGA-Eli & Edythe Broad Student Research Fellowship</h4>
-                        </td>
-                    </tr>
-                </table>
-                <br>
-                <br>
-            </div>
+                <div id="{{SectionID}}Container" style="width: 90%; margin: auto; padding: 25px;">
+                    {{#each entries}}
+                    <div style="display: inline;">
+                      <div style="padding: 0 5px 0 5px;">
+                        <div class="well" style="text-align: center; position: relative; display:flex; flex-direction:column; justify-content:center; padding: 15px; overflow: hidden; width: 340px; height: 300px; margin: auto;">
+                            <div>
+                              <h3>{{Title}}</h3>
+                              <h4>{{Duration}}</h4>
+                              <h4>{{Name}}</h4>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    {{/each}}
+                </div>
+            </script>
+            <div id="grants" class="light noisy" style="text-align: center;"></div>
             <div id="extracurricular" class="dark noisy" style="text-align: center;"></div>
             <div id="footer" class="noisy dark">
                 Created by Jordan Poles with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>, <a href="https://jquery.com/" target="_blank">JQuery</a>, <a href="http://leanmodal.finelysliced.com.au/" target="_blank">leanModal</a> and <a href="http://kenwheeler.github.io/slick/" target="_blank">slick</a>.

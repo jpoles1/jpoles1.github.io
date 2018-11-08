@@ -18,6 +18,11 @@ var importCV = function(obj, cb){
     //Import Publications
     var publicationstemplate = Handlebars.compile($("#publications-template").html());
     $("#publications").html(publicationstemplate(obj.publications));
+    //Import Grants
+    var grantstemplate = Handlebars.compile($("#grants-template").html());
+    console.log(grantstemplate)
+    $("#grants").html(grantstemplate(obj.grants));
+    
     cb(obj);
 };
 var initPlugins = function(obj){
@@ -91,6 +96,7 @@ var initPlugins = function(obj){
     proj_opts.prevArrow = "<a type='button' class='slickarrow glyphicon glyphicon-chevron-left' style='color: #333; position: absolute; height: 100%; left:-60px; font-size: 35px; line-height: 350px;'></a>",
     proj_opts.nextArrow =  "<a type='button' class='slickarrow glyphicon glyphicon-chevron-right' style='color: #333; position: absolute; height: 100%; right:-60px; font-size: 35px; line-height: 350px; padding-right: 25px; padding-left: 25px;'></a>",
     $("#abstractsContainer").slick(proj_opts);
+    $("#grantsContainer").slick(proj_opts);
     $("#projectsContainer").slick({
         infinite: false,
         slidesToShow: 3,
