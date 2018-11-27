@@ -5,6 +5,11 @@
     "Theme": "well",
     "entries": [
       {
+        "ProjectName": "Caseen: Interactive Clinical Case Platform",
+        "ProjectURL": "https://caseen.app/",
+        "Image": "img/caseen.png"
+      },
+      {
         "ProjectName": "ECG Lead Learner<br>3D Visualization Tool",
         "ProjectURL": "https://ecg-hint.glitch.me/",
         "Image": "img/ecghint.png"
