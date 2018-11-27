@@ -95,24 +95,9 @@
         "Image": "img/teamwiess.png"
       },
       {
-        "ProjectName": "Haskell Euler:<br>Solving problems with Haskell!",
-        "ProjectURL": "https://github.com/jpoles1/HaskellEuler",
-        "Image": "img/euler.jpg"
-      },
-      {
-        "ProjectName": "Algorithmic Approach:<br>Using the internet to teach myself computer science.",
-        "ProjectURL": "https://github.com/jpoles1/LearningAlgorithms",
-        "Image": "img/algorithms.png"
-      },
-      {
         "ProjectName": "Rice Ridiculously Automated Dorm (RRAD!)",
         "ProjectURL": "https://hackaday.io/project/4898-rice-ridiculously-automated-dorm-rrad",
         "Image": "img/rrad.png"
-      },
-      {
-        "ProjectName": "Code Wars:<br>Practicing my Code-Fu.",
-        "ProjectURL": "http://www.codewars.com/users/jpoles1/",
-        "Image": "img/codewars.png"
       },
       {
         "ProjectName": "The Responsive Planter",
@@ -123,11 +108,6 @@
         "ProjectName": "My GitHub",
         "ProjectURL": "http://github.com/jpoles1",
         "Image": "img/github.jpg"
-      },
-      {
-        "ProjectName": "My Hack-A-Day Profile",
-        "ProjectURL": "http://hackaday.io/jpoles1",
-        "Image": "img/hackaday.png"
       }
     ]
   },
