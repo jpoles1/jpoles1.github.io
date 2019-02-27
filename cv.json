@@ -213,6 +213,15 @@
     "Theme": "darkwell",
     "entries": [
       {
+        "Title": "Single-cell analysis of fate-mapped macrophages reveals heterogeneity, including stem-like properties, during atherosclerosis progression and regression",
+        "Authors": "Jian-Da Lin, Hitoo Nishi, <b>Jordan Poles</b>, et al. (2017).",
+        "Publication": "JCI Insight",
+        "Location": "",
+        "Date": "Feb. 2019",
+        "Image": "img/jci-single-cell.png",
+        "URL": "https://insight.jci.org/articles/view/124574"
+      },
+      {
         "Title": "Vitamin A mediates conversion of monocyte-derived macrophages into tissue-resident macrophages during alternative activation",
         "Authors": "Gundra, Uma Mahesh, Natasha M Girgis, Michael A Gonzalez, et al. (2017).",
         "Publication": "Nature Immunology",
