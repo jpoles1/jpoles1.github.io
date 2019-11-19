@@ -279,6 +279,34 @@
     "Theme": "darkwell",
     "entries": [
       {
+        "Title": "Association Between Tidal Volume and Outcomes in Patients Undergoing Mechanical Ventilation in the Cardiac Intensive Care Unit: Insights From the Medical Information Mart for Intensive Care (MIMIC-III) Database",
+        "What": "Poster",
+        "Where": "AHA Scientific Sessions 2019",
+        "When": "Nov 2019",
+        "Authors": "Carlos L Alviar, Albert Y Lui, Leonid Garber, Christopher Cosgriff, Jordan Poles, Vincent J Major, Marie Charpignon, Leo A Celi, Sean Van Diepen, Nathaniel Smilowitz"
+      },
+      {
+        "Title": "Association Between Positive End-Expiratory Pressure With Mortality and Mechanical Ventilation Duration in Patients With Left and Right Ventricular Dysfunction: Insights From the Medical Information Mart for Intensive Care (MIMIC-III) Database",
+        "What": "Poster",
+        "Where": "AHA Scientific Sessions 2019",
+        "When": "Nov 2019",
+        "Authors": "Albert Y Lui, Leonid Garber, Christopher Cosgriff, Vincent J Major, Jordan Poles, Marie Charpignon, Leo A Celi, Sean Van Diepen, Nathaniel Smilowitz, Carlos L Alviar"
+      },
+      {
+        "Title": "ABGenius: A freely-available web application for facilitating the teaching of arterial blood gas interpretation",
+        "What": "Tech Demo",
+        "Where": "NYU Medical Education Innovations & Scholarship Day",
+        "When": "Nov 2019",
+        "Authors": "Jordan Poles, Marc Triola"
+      },
+      {
+        "Title": "Caseen: Open Access Clinical Case Software for Online MedEd",
+        "What": "Speaker",
+        "Where": "Medical Education Subway Summit",
+        "When": "June 2019",
+        "Authors": "Jordan Poles, Marc Triola"
+      },
+      {
         "Title": "Caseen: Open Access Clinical Case Software for Online MedEd",
         "What": "Speaker",
         "Where": "Medical Education Subway Summit",
