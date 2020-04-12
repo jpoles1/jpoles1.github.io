@@ -5,6 +5,11 @@
     "Theme": "well",
     "entries": [
       {
+        "ProjectName": "ABGenius: Learn + Practice Blood Gas Interpretation",
+        "ProjectURL": "https://abg.jpoles1.com/",
+        "Image": "img/abgenius.png"
+      },
+      {
         "ProjectName": "<sub><i>3D Printing + Arduino =<br></i></sub><b>$8 Single-Lead EKG</b>",
         "ProjectURL": "https://www.thingiverse.com/thing:4111927/",
         "Image": "img/ekg.gif"
@@ -15,8 +20,8 @@
         "Image": "img/caseen.png"
       },
       {
-        "ProjectName": "ECG Lead Learner<br>3D Visualization Tool",
-        "ProjectURL": "https://ecg-hint.glitch.me/",
+        "ProjectName": "EKG Lead Learner<br>3D Visualization Tool",
+        "ProjectURL": "https://ekg-hint.glitch.me/",
         "Image": "img/ecghint.png"
       },
       {
@@ -279,6 +284,34 @@
     "Theme": "darkwell",
     "entries": [
       {
+        "Title": "Association Between Tidal Volume and Outcomes in Patients Undergoing Mechanical Ventilation in the Cardiac Intensive Care Unit: Insights From the MIMIC-III Database",
+        "What": "Poster",
+        "Where": "AHA Scientific Sessions 2019",
+        "When": "Nov 2019",
+        "Authors": "Carlos L Alviar, Albert Y Lui, Leonid Garber, Christopher Cosgriff, Jordan Poles, Vincent J Major, Marie Charpignon, Leo A Celi, Sean Van Diepen, Nathaniel Smilowitz"
+      },
+      {
+        "Title": "Association Between Positive End-Expiratory Pressure With Mortality and Mechanical Ventilation Duration in Patients With Left and Right Ventricular Dysfunction: Insights From the MIMIC-III Database",
+        "What": "Poster",
+        "Where": "AHA Scientific Sessions 2019",
+        "When": "Nov 2019",
+        "Authors": "Albert Y Lui, Leonid Garber, Christopher Cosgriff, Vincent J Major, Jordan Poles, Marie Charpignon, Leo A Celi, Sean Van Diepen, Nathaniel Smilowitz, Carlos L Alviar"
+      },
+      {
+        "Title": "ABGenius: A freely-available web application for facilitating the teaching of arterial blood gas interpretation",
+        "What": "Tech Demo",
+        "Where": "NYU Medical Education Innovations & Scholarship Day",
+        "When": "Nov 2019",
+        "Authors": "Jordan Poles, Marc Triola"
+      },
+      {
+        "Title": "RecEngine: Community-based Recommended Resources",
+        "What": "Poster",
+        "Where": "NYU Medical Education Innovations & Scholarship Day",
+        "When": "Nov 2019",
+        "Authors": "So-Young Oh, Jordan Poles, Michael Sonson, Jillian Halpern, Helen Finkelstein, Jesu Vensuslaus, Jenny Fong, Marina Marin, MacIntosh Cornwell"
+      },
+      {
         "Title": "Caseen: Open Access Clinical Case Software for Online MedEd",
         "What": "Speaker",
         "Where": "Medical Education Subway Summit",
@@ -288,7 +321,14 @@
       {
         "Title": "Caseen: Open Access Clinical Case Software for Online MedEd",
         "What": "Speaker",
-        "Where": "NYU Teaching with Technology Workshop",
+        "Where": "Medical Education Subway Summit",
+        "When": "June 2019",
+        "Authors": "Jordan Poles, Marc Triola"
+      },
+      {
+        "Title": "Caseen: Open Access Clinical Case Software for Online MedEd",
+        "What": "Speaker",
+        "Where": "NYU Teaching with Technology",
         "When": "May 2019",
         "Authors": "Jordan Poles"
       },
