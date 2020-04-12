@@ -5,6 +5,11 @@
     "Theme": "well",
     "entries": [
       {
+        "ProjectName": "<sub><i>3D Printing + Arduino =<br></i></sub><b>$8 Single-Lead EKG</b>",
+        "ProjectURL": "https://www.thingiverse.com/thing:4111927/",
+        "Image": "img/ekg.gif"
+      },
+      {
         "ProjectName": "Caseen: Interactive Clinical Case Platform",
         "ProjectURL": "https://caseen.app/",
         "Image": "img/caseen.png"
