@@ -36,7 +36,7 @@
       },
       {
         "ProjectName": "NYU SOM ECG Trainer:<br>An online tool for self-teaching and mastering ECG interpretation.",
-        "ProjectURL": "https://education.med.nyu.edu/ecg/",
+        "ProjectURL": "https://education.med.nyu.edu/ecg/app",
         "Image": "img/ALoE.png"
       },
       {
@@ -127,6 +127,18 @@
     "Theme": "darkwell",
     "entries": [
       {
+        "PositionTitle": "NYU Internal Medicine Summer Fellowship",
+        "Organization": "Insitute for Innovations in Medical Education",
+        "Duration": "Summer 2017",
+        "Location": "New York City",
+        "Image": "img/nyu.jpg",
+        "resumeDisplay": 1,
+        "Description": [
+          "Worked under the mentorship of Dr. Marc Triola to develop an <a href='https://education.med.nyu.edu/ecg/app' target='blank'>open-access platform</a> for case-based clinical education.",
+          "Authored two abstracts and gave three talks regarding my research to both fellow researchers and medical educators ."
+        ]
+      },
+      {
         "PositionTitle": "Medical Education Technology R&D Intern",
         "Organization": "Insitute for Innovations in Medical Education",
         "Duration": "Summer 2016",
@@ -134,9 +146,9 @@
         "Image": "img/nyu.jpg",
         "resumeDisplay": 1,
         "Description": [
-          "Worked at NYU with the Division of Learning Analytics to develop an <a href='https://education.med.nyu.edu/ecg/auth' target='blank'>online tool</a> for ECG interpretation self-education and mastery.",
+          "Worked at NYU with the Division of Learning Analytics to develop an <a href='https://education.med.nyu.edu/ecg/app' target='blank'>online tool</a> for ECG interpretation self-education and mastery.",
           "Analyzed and visualized data from a study on the dynamics of online ECG learning.",
-          "Authoring a manuscript regarding this study for publication."
+          "Authored two abstracts and posters describing our study of the path to competence in ECG interpretation."
         ]
       },
       {
