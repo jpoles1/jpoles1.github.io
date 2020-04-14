@@ -47,12 +47,12 @@
                 <nav class="collapse navbar-collapse" id="navbarCollapsible">
                     <ul class="nav nav-tabs navbar-nav" role="tablist">
                         <li><a href="#projects">Projects</a></li>
-                        <li><a href="#work">Work</a></li>
-                        <li style="display: none"><a href="#research">Research</a></li>
-                        <li><a href="#abstracts">Abstracts</a></li>
+                        <!--<li><a href="#research">Research</a></li>-->
                         <li><a href="#publications">Publications</a></li>
+                        <li><a href="#abstracts">Abstracts</a></li>
                         <li><a href="#grants">Grants</a></li>
-                        <li><a href="#extracurricular">Extracurriculars</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <!--<li><a href="#extracurricular">Extracurriculars</a></li>-->
                         <li><a href="https://blog.jpoles1.com/" target="_blank">My Blog</a></li>
                     </ul>
                 </nav>
@@ -85,7 +85,7 @@
                     <div>
                         <a href="{{ProjectURL}}" target="_blank" class="projectlink">
                             <div class="well projimg" style="background-image: url({{Image}}); background-size: contain;">
-                                <div class="projoverlay" style="">
+                                <div class="projoverlay">
                                     {{{ProjectName}}}
                                 </div>
                             </div>
@@ -95,6 +95,76 @@
                 </div>
             </script>
             <div id="projects" class="light noisy"></div>
+            
+            <script id="publications-template" type="text/x-handlebars-template">
+                <br>
+                <h1>{{SectionTitle}}</h1>
+                <br>
+                <div id="{{SectionID}}Container" style="width: 90%; margin: auto; padding: 25px;">
+                    {{#each entries}}
+                    <div style="display: inline;">
+                        <a href="{{URL}}" target="_blank">
+                          <div style="padding: 0 5px 0 5px;">
+                            <div class="well projimg" style="text-align: center; position: relative;padding: 0px; overflow: hidden; width: 340px; height: 350px; margin: auto; background-image: url({{Image}}); background-size: contain;">
+                                <div class="projoverlay" style="font-size: 18px; padding: 15px; padding-bottom: 20px; position: absolute; bottom: 0; width: 100%; background-color: rgba(0,0,0,.8); color: #FFF; display: none;">
+                                    {{Title}}
+                                    <hr>
+                                    {{Publication}}
+                                    <br>
+                                    {{Date}}
+                                </div>
+                            </div>
+                          </div>
+                        </a>
+                    </div>
+                    {{/each}}
+                </div>
+            </script>
+            <div id="publications" class="dark noisy" style="text-align: center;"></div>
+            
+            <script id="abstracts-template" type="text/x-handlebars-template">
+                <br>
+                <h1>{{SectionTitle}}</h1>
+                <br>
+                <div id="{{SectionID}}Container" style="width: 90%; margin: auto; padding: 25px;">
+                    {{#each entries}}
+                    <div style="display: inline;">
+                      <div style="padding: 0 5px 0 5px;">
+                        <div class="well" style="text-align: center; position: relative; display:flex; flex-direction:column; justify-content:center; padding: 15px; overflow: hidden; width: 340px; height: 300px; margin: auto;">
+                            <div>
+                              <h3>{{Title}}</h3>
+                              <h4>{{What}} - {{When}}</h4>
+                              <h4>{{Where}}</h4>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    {{/each}}
+                </div>
+            </script>
+            <div id="abstracts" class="light noisy" style="text-align: center;"></div>
+            <script id="grants-template" type="text/x-handlebars-template">
+                <br>
+                <h1>{{SectionTitle}}</h1>
+                <br>
+                <div id="{{SectionID}}Container" style="width: 90%; margin: auto; padding: 25px;">
+                    {{#each entries}}
+                    <div style="display: inline;">
+                      <div style="padding: 0 5px 0 5px;">
+                        <div class="well dark" style="text-align: center; position: relative; display:flex; flex-direction:column; justify-content:center; padding: 15px; overflow: hidden; width: 340px; height: 300px; margin: auto;">
+                            <div>
+                              <h3>{{Title}}</h3>
+                              <h4>{{Duration}}</h4>
+                              <h4>{{Name}}</h4>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    {{/each}}
+                </div>
+            </script>
+            <div id="grants" class="dark noisy" style="text-align: center;"></div>
+
             <script id="job-template" type="text/x-handlebars-template">
                 <br>
                 <h1>{{SectionTitle}}</h1>
@@ -129,74 +199,9 @@
                 </div>
             </script>
             <div id="work" class="dark noisy" style="text-align: center;"></div>
-            <script id="abstracts-template" type="text/x-handlebars-template">
-                <br>
-                <h1>{{SectionTitle}}</h1>
-                <br>
-                <div id="{{SectionID}}Container" style="width: 90%; margin: auto; padding: 25px;">
-                    {{#each entries}}
-                    <div style="display: inline;">
-                      <div style="padding: 0 5px 0 5px;">
-                        <div class="well" style="text-align: center; position: relative; display:flex; flex-direction:column; justify-content:center; padding: 15px; overflow: hidden; width: 340px; height: 300px; margin: auto;">
-                            <div>
-                              <h3>{{Title}}</h3>
-                              <h4>{{What}} - {{When}}</h4>
-                              <h4>{{Where}}</h4>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                    {{/each}}
-                </div>
-            </script>
-            <div id="abstracts" class="light noisy" style="text-align: center;"></div>
-            <script id="publications-template" type="text/x-handlebars-template">
-                <br>
-                <h1>{{SectionTitle}}</h1>
-                <br>
-                <div id="{{SectionID}}Container" style="width: 90%; margin: auto; padding: 25px;">
-                    {{#each entries}}
-                    <div style="display: inline;">
-                        <a href="{{URL}}" target="_blank">
-                          <div style="padding: 0 5px 0 5px;">
-                            <div class="well projimg" style="text-align: center; position: relative;padding: 0px; overflow: hidden; width: 340px; height: 350px; margin: auto; background-image: url({{Image}}); background-size: contain;">
-                                <div class="projoverlay" style="font-size: 18px; padding: 15px; padding-bottom: 20px; position: absolute; bottom: 0; width: 100%; background-color: rgba(0,0,0,.8); color: #FFF; display: none;">
-                                    {{Title}}
-                                    <hr>
-                                    {{Publication}}
-                                    <br>
-                                    {{Date}}
-                                </div>
-                            </div>
-                          </div>
-                        </a>
-                    </div>
-                    {{/each}}
-                </div>
-            </script>
-            <div id="publications" class="dark noisy" style="text-align: center;"></div>
-            <script id="grants-template" type="text/x-handlebars-template">
-                <br>
-                <h1>{{SectionTitle}}</h1>
-                <br>
-                <div id="{{SectionID}}Container" style="width: 90%; margin: auto; padding: 25px;">
-                    {{#each entries}}
-                    <div style="display: inline;">
-                      <div style="padding: 0 5px 0 5px;">
-                        <div class="well" style="text-align: center; position: relative; display:flex; flex-direction:column; justify-content:center; padding: 15px; overflow: hidden; width: 340px; height: 300px; margin: auto;">
-                            <div>
-                              <h3>{{Title}}</h3>
-                              <h4>{{Duration}}</h4>
-                              <h4>{{Name}}</h4>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                    {{/each}}
-                </div>
-            </script>
-            <div id="grants" class="light noisy" style="text-align: center;"></div>
-            <div id="extracurricular" class="dark noisy" style="text-align: center;"></div>
+           
+            <!--<div id="extracurricular" class="dark noisy" style="text-align: center;"></div>-->
+            
             <div id="footer" class="noisy dark">
                 Created by Jordan Poles with help from <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>, <a href="https://jquery.com/" target="_blank">JQuery</a>, <a href="http://leanmodal.finelysliced.com.au/" target="_blank">leanModal</a> and <a href="http://kenwheeler.github.io/slick/" target="_blank">slick</a>.
                 <br>
