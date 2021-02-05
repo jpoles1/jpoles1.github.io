@@ -235,6 +235,15 @@
     "Theme": "darkwell",
     "entries": [
       {
+        "Title": "The helminth glycoprotein omega‐1 improves metabolic homeostasis in obese mice through type 2 immunity‐independent inhibition of food intake",
+        "Authors": "Hendrik van der Zande, Michael A. Gonzalez, Karin de Ruiter, et al. (2021).",
+        "Publication": "The FASEB Journal",
+        "Location": "",
+        "Date": "Jan. 2021",
+        "Image": "img/faseb-helminth.png",
+        "URL": "https://faseb.onlinelibrary.wiley.com/doi/full/10.1096/fj.202001973R"
+      },
+      {
         "Title": "Single-cell analysis of fate-mapped macrophages reveals heterogeneity, including stem-like properties, during atherosclerosis progression and regression",
         "Authors": "Jian-Da Lin, Hitoo Nishi, <b>Jordan Poles</b>, et al. (2019).",
         "Publication": "JCI Insight",
@@ -296,16 +305,16 @@
     "Theme": "darkwell",
     "entries": [
       {
-        "Title": "Association Between Tidal Volume and Outcomes in Patients Undergoing Mechanical Ventilation in the Cardiac Intensive Care Unit: Insights From the MIMIC-III Database",
-        "What": "Poster",
-        "Where": "AHA Scientific Sessions 2019",
-        "When": "Nov 2019",
-        "Authors": "Carlos L Alviar, Albert Y Lui, Leonid Garber, Christopher Cosgriff, Jordan Poles, Vincent J Major, Marie Charpignon, Leo A Celi, Sean Van Diepen, Nathaniel Smilowitz"
+        "Title": "Co-infections in COVID-19​ patients hospitalized at NYU Langone Hospitals​",
+        "What": "Speaker",
+        "Where": "NYU COVID-19 Data Challenge",
+        "When": "Feb 2021",
+        "Authors": "Sigridh Muñoz Gómez, Prithiv Prasad, Jordan Poles, Dinuli Delpachitra, Yanina Dubrovskaya​​"
       },
       {
-        "Title": "Association Between Positive End-Expiratory Pressure With Mortality and Mechanical Ventilation Duration in Patients With Left and Right Ventricular Dysfunction: Insights From the MIMIC-III Database",
+        "Title": "Association Between Positive End-Expiratory Pressure With Mortality and Mechanical Ventilation Duration in Patients With Ventricular Dysfunction: Insights From the MIMIC-III Database",
         "What": "Poster",
-        "Where": "AHA Scientific Sessions 2019",
+        "Where": "AHA Scientific Sessions",
         "When": "Nov 2019",
         "Authors": "Albert Y Lui, Leonid Garber, Christopher Cosgriff, Vincent J Major, Jordan Poles, Marie Charpignon, Leo A Celi, Sean Van Diepen, Nathaniel Smilowitz, Carlos L Alviar"
       },
