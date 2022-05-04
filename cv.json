@@ -235,6 +235,15 @@
     "Theme": "darkwell",
     "entries": [
       {
+        "Title": "Coinfections and antimicrobial use in patients hospitalized with coronavirus disease 2019 (COVID-19) across a single healthcare system in New York City: A retrospective cohort study",
+        "Authors": "Prithiv Prasad*, <b>Jordan Poles*</b>, et al. (2022; co-first author*).",
+        "Publication": "ASHE",
+        "Location": "",
+        "Date": "May. 2022",
+        "Image": "img/covid_coinfect.png",
+        "URL": "https://doi.org/10.1017/ash.2022.51"
+      },
+      {
         "Title": "The helminth glycoprotein omega‐1 improves metabolic homeostasis in obese mice through type 2 immunity‐independent inhibition of food intake",
         "Authors": "Hendrik van der Zande, Michael A. Gonzalez, Karin de Ruiter, et al. (2021).",
         "Publication": "The FASEB Journal",
@@ -281,7 +290,7 @@
       },
       {
         "Title": "Metabolic Alterations to the Mucosal Microbiota in Inflammatory Bowel Disease",
-        "Authors": "Davenport, Michael,* <b>Poles, Jordan</b>,* Jacqueline M Leung, et al. (2014).",
+        "Authors": "Davenport, Michael*, <b>Poles, Jordan*</b>, Jacqueline M Leung, et al. (2014; co-first author*).",
         "Publication": "Inflammatory Bowel Diseases",
         "Location": "20, no. 4: 723.",
         "Date": "Apr. 2014",
@@ -422,7 +431,7 @@
         "What": "Poster",
         "Where": "Advances in IBD",
         "When": "2013",
-        "Authors": "Davenport, Michael*, Poles, Jordan*, Jacqueline Leung, Martin Wolff, Wasif Abidi, Thomas Ullman, Lloyd Mayer, Ilseung Cho, and P'ng Loke."
+        "Authors": "Davenport, Michael, Poles, Jordan, Jacqueline Leung, Martin Wolff, Wasif Abidi, Thomas Ullman, Lloyd Mayer, Ilseung Cho, and P'ng Loke."
       },
       {
         "Title": "Induction of a Gut-Tropic, Anti-HIV Immune Response via DEC-205 Targeted Intranasal Vaccination",
