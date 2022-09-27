@@ -165,16 +165,15 @@
         ]
       },
       {
-        "PositionTitle": "Freelance Web Designer & Developer",
+        "PositionTitle": "Web Designer & Developer",
         "Organization": "Distilled Design",
         "Duration": "2009 - 2015",
         "Location": "Chappaqua, NY",
         "Image": "img/freelance.png",
         "resumeDisplay": 1,
         "Description": [
-          "In High School, co-founded a successful web development company.",
-          "I have applied my skills in many different fields: from research and data visualization, to personal projects and business.",
-          "Worked for clients in Texas, across the Northeast, and as far as India. They include an online ticket vendor, awning distributor, NYC fashion boutique, and artisanal bakery"
+          "In High School, co-founded a successful web development small business.",
+          "Worked for clients in Texas, across the Northeast, and as far as India in a variety of industries: an online ticket vendor, awning distributor, NYC fashion boutique, and an artisanal bakery"
         ]
       },
       {
@@ -183,10 +182,9 @@
         "Duration": "2012 - 2014",
         "Location": "Chappaqua, NY",
         "Image": "img/suebolen.jpg",
-        "resumeDisplay": 1,
+        "resumeDisplay": 0,
         "Description": [
-          "Responsible for regularly maintaining and updating content.",
-          "Redesigned several pages."
+          "Responsible for regularly maintaining and updating content."
         ]
       },
       {
@@ -370,13 +368,6 @@
         "Authors": "Joseph Kingsbery, Jordan Poles, Peter Liang"
       },
       {
-        "Title": "Eosinophilic Esophagitis Following Exposure to Burn Pits During Military Deployment",
-        "What": "Poster",
-        "Where": "Digestive Disease Week",
-        "When": "June 2018",
-        "Authors": "Joseph Kingsbery, Jordan Poles, Peter Liang"
-      },
-      {
         "Title": "Single-cell RNA sequencing reveals heterogeneity of plaque macrophages in atherosclerosis progression and regression",
         "What": "Poster",
         "Where": "NYU Langone Department of Medicine Research Day",
@@ -396,13 +387,6 @@
         "Where": "Immunology Annual Conference",
         "When": "May 2018",
         "Authors": "Jian-Da Lin, Hitoo Nishi, Jordan Poles, Caroline Mccauley, Karishma Rahman, Ashly Hine, Nikollaq Vozhilla, Edward A. Fisher, P’ng Loke"
-      },
-      {
-        "Title": "Deliberate Practice of ECG Interpretation by Emergency Medicine Selective Students",
-        "What": "Oral Presentation",
-        "Where": "Northeastern Group on Education Affairs Annual Meeting",
-        "When": "2017",
-        "Authors": "Hilary Fairbrother, Christina Tempesta, Jordan Poles, Rose Hatala, Marc Triola, Martin Pusic"
       },
       {
         "Title": "Deliberate Practice of ECG Interpretation by Emergency Medicine Selective Students",
@@ -455,27 +439,15 @@
     "Theme": "darkwell",
     "entries": [
       {
-        "PositionTitle": "Data and Coding in Medicine Educator",
+        "PositionTitle": "Data and Coding in Medicine Interest Group - Educator",
         "resumeDisplay": 1,
         "Organization": "NYU SOM",
         "Duration": "April 2018 - December 2018",
         "Location": "New York, NY",
         "Image": "img/nyusom.png",
         "Description": [
-          "Organized workshops for novice students to learn to program in Python.",
-          "Developed curriculum to teach data science skills",
-          "Worked with experienced programmers to develop independent programming projects in medicine."
-        ]
-      },
-      {
-        "PositionTitle": "CME Course Facilitator",
-        "Organization": "NYU SOM",
-        "Duration": "April 2018 - December 2018",
-        "Location": "New York City",
-        "Image": "img/nyusom.png",
-        "resumeDisplay": 1,
-        "Description": [
-          "Ran \"Introduction to VR in Medical Education\" CME courses for NYU physicians."
+          "Organized workshops to teach medical students to start programming in Python.",
+          "Developed curriculum to teach data science skills to medical students."
         ]
       },
       {
@@ -487,7 +459,8 @@
         "Image": "img/nyusom.png",
         "Description": [
           "Organized events for students to learn about VR technologies.",
-          "Developed medical VR projects."
+          "Developed medical VR projects.",
+          "Led \"Introduction to VR in Medical Education\" CME courses for NYU physicians."
         ]
       },
       {
@@ -498,13 +471,12 @@
         "Location": "New York, NY",
         "Image": "img/nyusom.png",
         "Description": [
-          "Organized events for students to take classes, visit museums, and restaurants.",
-          "Worked with other groups to organize collaborative events."
+          "Organized events for medical students to take cooking classes, visit museums, and explore restaurants across NYC."
         ]
       },
       {
         "PositionTitle": "Hepatitis Project Volunteer",
-        "resumeDisplay": 1,
+        "resumeDisplay": 0,
         "Organization": "NYU SOM",
         "Duration": "September 2017  - May 2017",
         "Location": "New York, NY",
@@ -515,7 +487,7 @@
       },
       {
         "PositionTitle": "Wiess Webmaster",
-        "resumeDisplay": 1,
+        "resumeDisplay": 0,
         "Organization": "Wiess College",
         "Duration": "April 2014 - May 2017",
         "Location": "Houston, TX",
@@ -528,7 +500,7 @@
       },
       {
         "PositionTitle": "Wiess Associates Committee Chair",
-        "resumeDisplay": 1,
+        "resumeDisplay": 0,
         "Organization": "Wiess College",
         "Duration": "February 2014 - May 2017",
         "Location": "Houston, TX",
@@ -560,19 +532,7 @@
         "Image": "img/bentaub.gif",
         "Description": [
           "Lead a team of two discharge volunteers on shifts, coordinating discharge activities, maintaining records, and discharging patients.",
-          "Developed the initiative's quality improvement program from the ground up."
-        ]
-      },
-      {
-        "PositionTitle": "Alternative Spring Break Volunteer",
-        "resumeDisplay": 0,
-        "Organization": "Rice Alternative Spring Break",
-        "Duration": "Spring 2014",
-        "Location": "McAllen, TX",
-        "Image": "img/asb.jpg",
-        "Description": [
-          "Volunteered with educators at the IDEA charter school working for an underserved, minority population living in the Rio Grande Valley.",
-          "Engaged in extensive service learning regarding the improvement of the American education system."
+          "Developed the program's quality improvement program from the ground up."
         ]
       },
       {
@@ -583,13 +543,13 @@
         "Location": "Houston, TX",
         "Image": "img/bentaub.gif",
         "Description": [
-          "Discharged patients from the ER, and discussed follow-up appointments, medications and available social services.",
-          "Followed up with patients following discharge to answer questions, promote medication adherence, and encourage follow-up appointment attendance"
+          "Assisted with discharges from the ER: discussed follow-up appointments, medications and available social services.",
+          "Made calls to follow up with patients after discharge: answer questions, promote medication adherence, and encourage follow-up appointment attendance."
         ]
       },
       {
         "PositionTitle": "Aider & First Responder",
-        "resumeDisplay": 1,
+        "resumeDisplay": 0,
         "Organization": "Chappaqua Volunteer Ambulance Core",
         "Duration": "September 2013 - April 2014",
         "Location": "Chappaqua, NY",
@@ -598,33 +558,6 @@
           "CPR & Basic Life Support Certified.",
           "Certified First Responder.",
           "NYS EMT Number: 402797"
-        ]
-      },
-      {
-        "PositionTitle": "Urban Immersion Volunteer",
-        "resumeDisplay": 0,
-        "Organization": "Rice University Urban Immersion",
-        "Duration": "Summer 2013",
-        "Location": "Houston, TX",
-        "Image": "img/urbanimmersion.jpg",
-        "Description": [
-          "Chosen through competitive application process.",
-          "Worked with a number of different service organizations around Houston",
-          "Engaged in service learning about socioeconomic disparities in Houston."
-        ]
-      },
-      {
-        "PositionTitle": "Filipino Martial Arts Educator",
-        "resumeDisplay": 0,
-        "Organization": "Kapatid Martial Arts",
-        "Duration": "2009 - 2012",
-        "Location": "Mt. Kisco, NY",
-        "Image": "img/kapatid.jpg",
-        "Description": [
-          "Led classes for younger and older students.",
-          "Taught martial arts technique and organized workouts.",
-          "Member of the Delta Leadership Team",
-          "Earned Black Belt in May, 2010"
         ]
       }
     ]
