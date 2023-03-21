@@ -5,6 +5,16 @@
     "Theme": "well",
     "entries": [
       {
+        "ProjectName": "Explore My<br>Open Source Software",
+        "ProjectURL": "https://github.com/jpoles1?tab=repositories&q=&type=&language=&sort=stargazers",
+        "Image": "img/coding.png"
+      },
+      {
+        "ProjectName": "Explore My<br>3D Design/Printing",
+        "ProjectURL": "https://www.printables.com/social/301817-jpoles1/models/",
+        "Image": "img/printables.png"
+      },
+      {
         "ProjectName": "ABGenius: Learn + Practice Blood Gas Interpretation",
         "ProjectURL": "https://abg.jpoles1.com/",
         "Image": "img/abgenius.png"
@@ -113,11 +123,6 @@
         "ProjectName": "The Responsive Planter",
         "ProjectURL": "https://hackaday.io/project/5652-responsive-planter",
         "Image": "img/planter.jpg"
-      },
-      {
-        "ProjectName": "My GitHub",
-        "ProjectURL": "http://github.com/jpoles1",
-        "Image": "img/github.jpg"
       }
     ]
   },
