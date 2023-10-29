@@ -132,6 +132,18 @@
     "Theme": "darkwell",
     "entries": [
       {
+        "PositionTitle": "Hospitalist Attending Physician",
+        "Organization": "Memorial Sloan Kettering Cancer Center",
+        "Duration": "2023 - Present",
+        "Location": "New York City",
+        "Image": "img/msk.png",
+        "resumeDisplay": 1,
+        "Description": [
+          "Responsible for the direct care of patients who are admitted to the hospital for oncologic emergencies, and complications of cancer care as well as any other illnesses they encounter during their fight against cancer.",
+          "Supervised a team of NP/PAs, and resident physicians to care for a diverse population of medical and perioperative inpatients."
+        ]
+      },
+      {
         "PositionTitle": "NYU Internal Medicine Summer Fellowship",
         "Organization": "Insitute for Innovations in Medical Education",
         "Duration": "Summer 2017",
@@ -141,19 +153,6 @@
         "Description": [
           "Worked under the mentorship of Dr. Marc Triola to develop an <a href='https://caseen.app/' target='blank'>open-access platform</a> for case-based clinical education.",
           "Authored two abstracts and gave three talks regarding my research to both fellow researchers and medical educators."
-        ]
-      },
-      {
-        "PositionTitle": "Medical Education Technology R&D Intern",
-        "Organization": "Insitute for Innovations in Medical Education",
-        "Duration": "Summer 2016",
-        "Location": "New York City",
-        "Image": "img/nyu.jpg",
-        "resumeDisplay": 1,
-        "Description": [
-          "Worked at NYU with the Division of Learning Analytics to develop an <a href='https://education.med.nyu.edu/ecg/app' target='blank'>online tool</a> for ECG interpretation self-education and mastery.",
-          "Analyzed and visualized data from a study on the dynamics of online ECG learning.",
-          "Authored two abstracts and posters describing our study of the path to competence in ECG interpretation."
         ]
       },
       {
@@ -190,17 +189,6 @@
         "resumeDisplay": 0,
         "Description": [
           "Responsible for regularly maintaining and updating content."
-        ]
-      },
-      {
-        "PositionTitle": "Designer, Developer and Editor",
-        "Organization": "NYU Department of Educational Informatics",
-        "Duration": "Summer 2009",
-        "Location": "New York City",
-        "Image": "img/nyu.jpg",
-        "Description": [
-          "Developed Virtual Clinic and Learning Modules.",
-          "Developed medical reading list technology."
         ]
       }
     ]
